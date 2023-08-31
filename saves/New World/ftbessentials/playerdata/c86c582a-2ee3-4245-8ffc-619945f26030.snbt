@@ -1,0 +1,11 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "SSGKING"
+	last_seen: { dim: "minecraft:overworld", x: 15, y: 67, z: -230, time: 1693444071507L, xRot: 28.04985f, yRot: -43.353546f }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}

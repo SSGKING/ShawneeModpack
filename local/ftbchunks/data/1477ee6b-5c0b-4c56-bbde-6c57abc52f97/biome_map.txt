@@ -1,0 +1,8 @@
+#2B9 byg:borealis_grove
+#6D2 byg:dacite_shore
+#705 minecraft:deep_frozen_ocean
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#1D8 byg:skyris_vale
+#340 minecraft:snowy_taiga
+#51A minecraft:stony_shore
