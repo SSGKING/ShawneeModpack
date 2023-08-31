@@ -1,0 +1,6 @@
+minecraft:overworld
+blue_skies:everdawn
+blue_skies:everbright
+minecraft:the_nether
+minecraft:the_end
+twilightforest:twilight_forest

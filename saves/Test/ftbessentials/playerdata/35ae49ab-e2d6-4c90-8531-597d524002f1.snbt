@@ -1,0 +1,11 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "StarmasterK13"
+	last_seen: { dim: "twilightforest:twilight_forest", x: 522, y: 15, z: -296, time: 1693452814345L, xRot: 23.550049f, yRot: 111.600006f }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}
