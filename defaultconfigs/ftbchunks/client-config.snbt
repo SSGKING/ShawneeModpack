@@ -18,7 +18,7 @@
 	# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
 	# Default: 0
 	# Range: 0 ~ 2147483647
-	death_waypoint_autoremove_distance: 0
+	death_waypoint_autoremove_distance: 1
 	
 	# Enables creation of death waypoints
 	# Default: true
@@ -107,12 +107,12 @@
 	# Distance at which waypoint dots start to fade
 	# Default: 1.0
 	# Range: 1.0 ~ 200.0
-	waypoint_dot_fade_distance: 1.0d
+	waypoint_dot_fade_distance: 200.0d
 	
 	# Distance at which waypoint beacons start to fade
 	# Default: 12.0
 	# Range: 1.0 ~ 200.0
-	waypoint_fade_distance: 12.0d
+	waypoint_fade_distance: 200.0d
 	memory: {
 		# When the large map is closed, auto-release least recently accessed regions down to this number (0 disables releasing)
 		# Default: 32
