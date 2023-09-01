@@ -1,0 +1,11 @@
+{
+	id: "2F3089FAD45C1A1F"
+	group: "11E1314D519E6997"
+	order_index: 2
+	filename: "basic_minecraft"
+	title: "Basic Minecraft"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

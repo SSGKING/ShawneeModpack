@@ -1,0 +1,313 @@
+{
+	id: "5E3E38417A54DD24"
+	group: "11E1314D519E6997"
+	order_index: 3
+	filename: "jump_start"
+	title: "Jump Start"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["5F1FC24F8DCE79B7"]
+			id: "70EB949E53BB45EF"
+			tasks: [
+				{
+					id: "734AA69412534998"
+					type: "checkmark"
+					title: "Dimension Mods Jump Start"
+				}
+				{
+					id: "110FEB00CFDBBB44"
+					type: "item"
+					item: "minecraft:dragon_head"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "10650B22986D4C20"
+					type: "item"
+					item: "minecraft:bread"
+					count: 8
+				}
+				{
+					id: "5292295E794AC2E2"
+					type: "item"
+					item: "tropicraft:bamboo_mug"
+				}
+				{
+					id: "78215CAD1B45A566"
+					type: "item"
+					item: "tropicraft:pineapple_cubes"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			description: [
+				"Jump starts are meant to boost you in the direction of your selected mods, be that dimensions, tech, farming, ect. These Jumps arn't very big, they are mainly there to help you get a head start, like a simple tool, some iron, or a piece of armor."
+				"Accepting this allows you to select a jump start."
+			]
+			id: "5F1FC24F8DCE79B7"
+			tasks: [{
+				id: "418BFB2F256FC26A"
+				type: "checkmark"
+				title: "Explanation of Jump Starts"
+			}]
+			rewards: [{
+				id: "354E45131B867E80"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["5F1FC24F8DCE79B7"]
+			id: "2952ACEE49D069FE"
+			tasks: [
+				{
+					id: "3F0C3A9062FA9A47"
+					type: "checkmark"
+					title: "Tech Mods Jump Start"
+				}
+				{
+					id: "2BD3AEE4616429DD"
+					type: "item"
+					item: "minecraft:dragon_head"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0B32AD07E6025B48"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["5F1FC24F8DCE79B7"]
+			id: "1BF2475E5C8FDE16"
+			tasks: [
+				{
+					id: "0492A803383040A7"
+					type: "checkmark"
+					title: "Magic Mods Jump Start"
+				}
+				{
+					id: "6C54AB44245DEECC"
+					type: "item"
+					item: "minecraft:dragon_head"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "35309FBCA9991CD9"
+					type: "item"
+					item: "minecraft:pig_spawn_egg"
+					count: 2
+				}
+				{
+					id: "60C42F1EB8C28518"
+					type: "item"
+					item: "minecraft:creeper_head"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["5F1FC24F8DCE79B7"]
+			id: "094F15ED40FC5F83"
+			tasks: [
+				{
+					id: "7CBA278CD439BFF8"
+					type: "checkmark"
+					title: "Exploration Mods Jump Start"
+				}
+				{
+					id: "2561385EEB5A387B"
+					type: "item"
+					item: "minecraft:dragon_head"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "11CD454DBAA8A720"
+					type: "item"
+					item: "quark:blossom_boat"
+				}
+				{
+					id: "20E727E77E2BDDE7"
+					type: "item"
+					item: "sophisticatedbackpacks:upgrade_base"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			dependencies: ["5F1FC24F8DCE79B7"]
+			id: "7C6A620275ACEB65"
+			tasks: [
+				{
+					id: "32F9B65BB86D9C5F"
+					type: "checkmark"
+					title: "Building Mods Jump Start"
+				}
+				{
+					id: "4891F2AE24314318"
+					type: "item"
+					item: "minecraft:dragon_head"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "795F0F0F8DCBFBB4"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 8
+				}
+				{
+					id: "63F93C5A6EA8B8EB"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "61F27044B1DB6D89"
+					type: "item"
+					item: "quark:blossom_chest"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			dependencies: ["5F1FC24F8DCE79B7"]
+			id: "038EB204AC8FBEC5"
+			tasks: [
+				{
+					id: "6A761B2D6E61CD8E"
+					type: "checkmark"
+					title: "Combat Mods Jump Start"
+				}
+				{
+					id: "3664F96EA5C829E0"
+					type: "item"
+					item: "minecraft:dragon_head"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1646AD2F0912FBAD"
+					type: "item"
+					item: {
+						id: "minecraft:stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D43C577E533D144"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -3.5d
+			dependencies: ["5F1FC24F8DCE79B7"]
+			id: "36C31D1753E9FEBC"
+			tasks: [
+				{
+					id: "5F9D17F26A1396C3"
+					type: "checkmark"
+					title: "Farming Mods Jump Start"
+				}
+				{
+					id: "2190B1E0075D474D"
+					type: "item"
+					item: "minecraft:dragon_head"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "66341F1B8C14DF87"
+					type: "item"
+					item: {
+						id: "minecraft:iron_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F8F1FE4CE54630D"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 6
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			dependencies: ["5F1FC24F8DCE79B7"]
+			id: "44CF6D8009186E78"
+			tasks: [
+				{
+					id: "0FB4BB977894E4DC"
+					type: "checkmark"
+					title: "I don't want a jump start, send me in!"
+				}
+				{
+					id: "0160DDE20D6C19B5"
+					type: "item"
+					item: "minecraft:dragon_head"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3A5596D04CA6829D"
+				type: "toast"
+				title: "I'd hand you some Big Lad Pants, but you wouldn't want them would you?"
+				icon: {
+					id: "buddycards:buddysteel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				description: ""
+			}]
+		}
+	]
+	quest_links: [ ]
+}

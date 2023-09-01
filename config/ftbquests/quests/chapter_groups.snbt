@@ -1,0 +1,13 @@
+{
+	chapter_groups: [
+		{ id: "11E1314D519E6997", title: "General" }
+		{ id: "50E36C8A3680969A", title: "Dimensions" }
+		{ id: "4665FE93FAB3B195", title: "Tech" }
+		{ id: "6A76548D5BF3B1D6", title: "Magic" }
+		{ id: "0718303B342A7CEB", title: "Exploration" }
+		{ id: "244E03AFCF92B96D", title: "Building" }
+		{ id: "744385B4CFA7D760", title: "Combat" }
+		{ id: "0B8B529C0B4B5EE9", title: "Farming" }
+		{ id: "43B410F56C31F172", title: "Misc." }
+	]
+}
