@@ -1,0 +1,11 @@
+{
+	id: "5ACC67E1523B7E0A"
+	group: "0B8B529C0B4B5EE9"
+	order_index: 2
+	filename: "brewers_clubsoda"
+	title: "Brewer's clubsoda"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

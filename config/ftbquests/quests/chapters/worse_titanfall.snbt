@@ -1,0 +1,11 @@
+{
+	id: "6248CA06576539A4"
+	group: "4665FE93FAB3B195"
+	order_index: 3
+	filename: "worse_titanfall"
+	title: "Worse Titanfall"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

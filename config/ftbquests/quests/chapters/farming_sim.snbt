@@ -1,0 +1,11 @@
+{
+	id: "002C1C56A97896BE"
+	group: "0B8B529C0B4B5EE9"
+	order_index: 4
+	filename: "farming_sim"
+	title: "Farming Sim"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

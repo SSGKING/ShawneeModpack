@@ -1,0 +1,11 @@
+{
+	id: "51FD8ED23FBB282F"
+	group: "0718303B342A7CEB"
+	order_index: 3
+	filename: "normal_animals_made_by_alex"
+	title: "Normal animals, made by Alex"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

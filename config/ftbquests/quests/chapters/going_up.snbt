@@ -1,0 +1,11 @@
+{
+	id: "7D4BDC368FC64B75"
+	group: "244E03AFCF92B96D"
+	order_index: 2
+	filename: "going_up"
+	title: "Going Up!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

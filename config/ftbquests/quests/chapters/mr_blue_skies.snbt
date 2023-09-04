@@ -1,0 +1,27 @@
+{
+	id: "3B3CED7C089561A9"
+	group: "50E36C8A3680969A"
+	order_index: 3
+	filename: "mr_blue_skies"
+	title: "Mr. Blue Skies"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		description: ["Do you like constant light? How about constant dark? Yes? No? Well if you want to battle in dungeons and witness quite beautiful nature, head over to a village and ask for a gatekeeper. You'll need some books though, lucky for you I carry multiple on me at all times. And no my back doesn't hurt, i'm not salty, you're salty!"]
+		id: "5D0F1AE855E47CCF"
+		tasks: [{
+			id: "587BDDB9BF5CDFCB"
+			type: "checkmark"
+			title: "Mr. Blue Skies"
+		}]
+		rewards: [{
+			id: "6745EB81D5C2CDEF"
+			type: "item"
+			item: "minecraft:book"
+			count: 5
+		}]
+	}]
+	quest_links: [ ]
+}

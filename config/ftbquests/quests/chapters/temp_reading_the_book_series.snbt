@@ -1,0 +1,11 @@
+{
+	id: "390379065C93A427"
+	group: "4665FE93FAB3B195"
+	order_index: 0
+	filename: "temp_reading_the_book_series"
+	title: "Temp Reading, the book series"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

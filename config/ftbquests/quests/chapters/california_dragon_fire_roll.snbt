@@ -1,0 +1,11 @@
+{
+	id: "5468651B4A2C3028"
+	group: "0B8B529C0B4B5EE9"
+	order_index: 3
+	filename: "california_dragon_fire_roll"
+	title: "California Dragon Fire Roll"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "28BE27CD60C60878"
+	group: "43B410F56C31F172"
+	order_index: 2
+	filename: "expression"
+	title: "Expression"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "79D1D42A200E7BB3"
+	group: "744385B4CFA7D760"
+	order_index: 1
+	filename: "i_aint_hear_no_bell_ding_ding_ding_oh_there_it_is"
+	title: "I ain't hear no bell. 'ding ding ding' Oh there it is"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "4C2A5B6A221CC92D"
+	group: "43B410F56C31F172"
+	order_index: 3
+	filename: "posturing"
+	title: "Posturing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "16594B73E7104BDA"
+	group: "244E03AFCF92B96D"
+	order_index: 0
+	filename: "chiseled_once_again"
+	title: "Chiseled once again"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

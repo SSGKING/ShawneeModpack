@@ -1,0 +1,11 @@
+{
+	id: "573A38A5AC5A1291"
+	group: "244E03AFCF92B96D"
+	order_index: 1
+	filename: "magic_wand_of_constant_construction"
+	title: "Magic Wand of constant construction"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

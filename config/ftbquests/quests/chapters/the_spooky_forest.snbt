@@ -1,0 +1,126 @@
+{
+	id: "10FBF9413446A95A"
+	group: "50E36C8A3680969A"
+	order_index: 0
+	filename: "the_spooky_forest"
+	title: "The Spooky Forest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 0.5d
+			description: ["Tired of the constant industry surrounding your base? Want to head to a large, and I DO mean large, forest with monsters, bosses, and loot as far as the eye can see? Then make a flower pool and jump in, I would take caution though, it's not easy being an unwanted guest."]
+			id: "784BC8ED19166AD7"
+			tasks: [{
+				id: "59224FB2EA24F8B5"
+				type: "checkmark"
+				title: "The Spooky Forest"
+			}]
+			rewards: [{
+				id: "63317952027EE0D8"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			id: "474CE5CF02814EE0"
+			tasks: [
+				{
+					id: "20C26613C732CA2A"
+					type: "item"
+					title: "Any #minecraft:flowers"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+					count: 12L
+				}
+				{
+					id: "024CAAB689577411"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "0D32E0CFBB857951"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 12L
+				}
+				{
+					id: "6EA0510DB18E02AE"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			id: "23E80B77D90BF196"
+			tasks: [
+				{
+					id: "46FB9DBDEBE4BB7B"
+					type: "kill"
+					entity: "twilightforest:naga"
+					value: 1L
+				}
+				{
+					id: "1C6731439C76C51A"
+					type: "kill"
+					entity: "twilightforest:lich"
+					value: 1L
+				}
+				{
+					id: "449CFB29B2F675BC"
+					type: "kill"
+					entity: "twilightforest:ur_ghast"
+					value: 1L
+				}
+				{
+					id: "1EA6ACD01CC8FD20"
+					type: "kill"
+					entity: "twilightforest:snow_queen"
+					value: 1L
+				}
+				{
+					id: "187653F3F4C28C97"
+					type: "kill"
+					entity: "twilightforest:hydra"
+					value: 1L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			id: "101B39BD512F86B6"
+			tasks: [
+				{
+					id: "7980FF3A1BC5FD90"
+					type: "kill"
+					entity: "twilightforest:minoshroom"
+					value: 1L
+				}
+				{
+					id: "33E6F9ABB37335F3"
+					type: "kill"
+					entity: "twilightforest:knight_phantom"
+					value: 1L
+				}
+				{
+					id: "30CE9ECD798EFF2A"
+					type: "kill"
+					entity: "twilightforest:alpha_yeti"
+					value: 1L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

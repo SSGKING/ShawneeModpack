@@ -1,11 +1,81 @@
 {
 	id: "69F273E4819AC557"
 	group: "11E1314D519E6997"
-	order_index: 0
+	order_index: 1
 	filename: "base_info"
 	title: "Base Info"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["This mod was created for the Shawnee State University Minecraft Server, this pack has been influenced by the students that attend that college."]
+			id: "68CAB63A9606BC01"
+			tasks: [{
+				id: "05428AC68777A4DE"
+				type: "checkmark"
+				title: "Information about this modpack"
+			}]
+			rewards: [{
+				id: "3A55627DCF8C16CB"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["This modpack was created by the crack addled minds behind it for a simple purpose, we wanted to play modded multiplayer, and last year was fun... but we think we can do better."]
+			dependencies: ["68CAB63A9606BC01"]
+			id: "7C4F624D9409EC70"
+			tasks: [{
+				id: "0B12E02ED512FD67"
+				type: "checkmark"
+				title: "Continued"
+			}]
+			rewards: [{
+				id: "7622A0A7A45481CF"
+				type: "item"
+				item: "minecraft:coarse_dirt"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["Finally this modpack has mods suggested by the students at SSU, but most of the mods were selected by the crack heads who put it together. We had the final say on mods, and very few were excluded, unless they were not compatable with the version, and those that were deemed gross, or had better versions of the same mod, such as pam's, were excluded."]
+			dependencies: ["7C4F624D9409EC70"]
+			id: "60F916C5B9957DA8"
+			tasks: [{
+				id: "5BF66EC368A4A0D9"
+				type: "checkmark"
+				title: "Final notice, I swear."
+			}]
+			rewards: [{
+				id: "201D071C28AB0008"
+				type: "item"
+				item: "minecraft:grass_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["The TRUELY Final thing to say is, have fun, this pack was made to be enjoyed with others. We encourage you to do so. Or not, we're not in your walls... yet."]
+			hide_dependency_lines: true
+			dependencies: ["60F916C5B9957DA8"]
+			hide: true
+			id: "7AF200DA2AA2B33E"
+			tasks: [{
+				id: "553730FBE89F9F8C"
+				type: "checkmark"
+				title: "I lied. :P"
+			}]
+			rewards: [{
+				id: "7C1F47A64CDB8B1F"
+				type: "item"
+				item: "minecraft:torch"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

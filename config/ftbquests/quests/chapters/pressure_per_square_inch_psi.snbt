@@ -1,0 +1,11 @@
+{
+	id: "6A86703A066C63D8"
+	group: "6A76548D5BF3B1D6"
+	order_index: 0
+	filename: "pressure_per_square_inch_psi"
+	title: "Pressure per Square Inch, PSI"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

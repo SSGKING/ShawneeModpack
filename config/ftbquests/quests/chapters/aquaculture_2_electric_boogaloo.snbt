@@ -1,0 +1,11 @@
+{
+	id: "31636BE24E4E7778"
+	group: "0718303B342A7CEB"
+	order_index: 4
+	filename: "aquaculture_2_electric_boogaloo"
+	title: "Aquaculture 2, electric boogaloo"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

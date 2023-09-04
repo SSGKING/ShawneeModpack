@@ -1,0 +1,11 @@
+{
+	id: "2306B9BE61EDAA10"
+	group: "0718303B342A7CEB"
+	order_index: 5
+	filename: "indiana_jones"
+	title: "Indiana Jones"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

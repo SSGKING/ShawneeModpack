@@ -1,0 +1,11 @@
+{
+	id: "548D465B02F1C07A"
+	group: "0718303B342A7CEB"
+	order_index: 2
+	filename: "dungeon_maul"
+	title: "Dungeon Maul"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

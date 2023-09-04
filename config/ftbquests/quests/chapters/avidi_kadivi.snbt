@@ -1,0 +1,11 @@
+{
+	id: "24A3E853D3539581"
+	group: "6A76548D5BF3B1D6"
+	order_index: 4
+	filename: "avidi_kadivi"
+	title: "Avidi Kadivi"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

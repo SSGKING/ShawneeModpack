@@ -1,0 +1,11 @@
+{
+	id: "5777BC0FB6427D17"
+	group: "4665FE93FAB3B195"
+	order_index: 5
+	filename: "destroy_which_is_the_opposite_of_create"
+	title: "Destroy, which is the opposite of Create"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

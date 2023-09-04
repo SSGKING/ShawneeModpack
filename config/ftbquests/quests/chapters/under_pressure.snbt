@@ -1,0 +1,11 @@
+{
+	id: "1271514B16490FC7"
+	group: "4665FE93FAB3B195"
+	order_index: 1
+	filename: "under_pressure"
+	title: "Under Pressure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

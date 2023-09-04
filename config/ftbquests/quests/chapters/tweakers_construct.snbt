@@ -1,0 +1,11 @@
+{
+	id: "0706872B11563BAB"
+	group: "4665FE93FAB3B195"
+	order_index: 6
+	filename: "tweakers_construct"
+	title: "Tweaker's Construct"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

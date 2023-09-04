@@ -6,6 +6,793 @@
 	title: "Basic Minecraft"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Get wood"
+			x: -14.5d
+			y: -1.5d
+			id: "3A05B5414ADF366B"
+			tasks: [{
+				id: "6DC15013C1CF3F7A"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			title: "Mine Cobblestone"
+			x: -8.5d
+			y: -1.5d
+			dependencies: ["3A011CF167DF13EC"]
+			id: "5CEBDD2D69BDB9F7"
+			tasks: [{
+				id: "42E75AA735ACE55A"
+				type: "item"
+				title: "Any #forge:cobblestone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+			}]
+		}
+		{
+			title: "Subpar Axe"
+			x: -10.5d
+			y: -2.5d
+			dependencies: ["543F54FF050952A5"]
+			id: "49074F89D803C495"
+			tasks: [{
+				id: "03C02FB76AA80C5E"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Subpar Pickaxe"
+			x: -10.5d
+			y: -1.5d
+			dependencies: ["543F54FF050952A5"]
+			id: "3A011CF167DF13EC"
+			tasks: [{
+				id: "05923BFDD7642A33"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Subpar Sword"
+			x: -10.5d
+			y: -0.5d
+			dependencies: ["543F54FF050952A5"]
+			id: "24D8FFBE9124BA68"
+			tasks: [{
+				id: "6CB47E62DC650DBE"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Start Crafting"
+			x: -12.5d
+			y: -1.5d
+			dependencies: ["3A05B5414ADF366B"]
+			id: "543F54FF050952A5"
+			tasks: [{
+				id: "7D650D777E6D9E49"
+				type: "item"
+				title: "Any #forge:workbenches"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:workbenches"
+					}
+				}
+			}]
+		}
+		{
+			title: "Slow Smelting"
+			x: -6.5d
+			y: -3.5d
+			dependencies: ["5CEBDD2D69BDB9F7"]
+			id: "4A32D1620D250C47"
+			tasks: [{
+				id: "5FC1ED12D4712269"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			title: "Basic Axe"
+			x: -6.5d
+			y: -2.5d
+			dependencies: ["5CEBDD2D69BDB9F7"]
+			id: "017AF2445BED8499"
+			tasks: [{
+				id: "1D620E0158FCD2B5"
+				type: "item"
+				item: {
+					id: "minecraft:stone_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Basic Pickaxe"
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["5CEBDD2D69BDB9F7"]
+			id: "51E10CEC0BEFEE94"
+			tasks: [{
+				id: "69174AA4AEB58D48"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Basic Sword"
+			x: -6.5d
+			y: -0.5d
+			dependencies: ["5CEBDD2D69BDB9F7"]
+			id: "10214FF2B18D4805"
+			tasks: [{
+				id: "0EB1C8220FBB83F8"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Meager Storage"
+			x: -10.5d
+			y: -3.5d
+			dependencies: ["543F54FF050952A5"]
+			id: "258D0EC713FBA7DE"
+			tasks: [{
+				id: "43541C36C00551EB"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			title: "Smelting Iron"
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["51E10CEC0BEFEE94"]
+			id: "306FAA6754F6F6B2"
+			tasks: [{
+				id: "1C637232C4DE34E8"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			title: "Superior Axe"
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["306FAA6754F6F6B2"]
+			id: "46ECAC2F24FF1449"
+			tasks: [{
+				id: "343F57F0DA5C1659"
+				type: "item"
+				item: {
+					id: "minecraft:iron_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Superior Pickaxe"
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["306FAA6754F6F6B2"]
+			id: "4BBC199310F1515E"
+			tasks: [{
+				id: "465C03D592101812"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Superior Sword"
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["306FAA6754F6F6B2"]
+			id: "37DE8A336A3A053B"
+			tasks: [{
+				id: "6F75E71EA4382A8A"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Finding Diamonds"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["4BBC199310F1515E"]
+			id: "5CB7466E5B601C8F"
+			tasks: [{
+				id: "308B1F76065C1A48"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			title: "Grandiose Pickaxe"
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["5CB7466E5B601C8F"]
+			id: "71C33BC89542DA21"
+			tasks: [{
+				id: "0AD13EE8B516AB52"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Grandiose Axe"
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["5CB7466E5B601C8F"]
+			id: "0E10EB98672AE0CB"
+			tasks: [{
+				id: "3B2583CCEFB67CB8"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Grandiose Sword"
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["5CB7466E5B601C8F"]
+			id: "18121D8D8FE6105B"
+			tasks: [{
+				id: "53274104A14C8DE7"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Subpar Hoe"
+			x: -10.5d
+			y: 0.5d
+			dependencies: ["543F54FF050952A5"]
+			id: "5E497F9192DF7C2B"
+			tasks: [{
+				id: "42D7C96178D8846A"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Basic Hoe"
+			x: -6.5d
+			y: 0.5d
+			dependencies: ["5CEBDD2D69BDB9F7"]
+			id: "0AAE2070E26CAEC0"
+			tasks: [{
+				id: "7EC3476FFBA3166D"
+				type: "item"
+				item: {
+					id: "minecraft:stone_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Superior Hoe"
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["306FAA6754F6F6B2"]
+			id: "6B05CF237F13D2B6"
+			tasks: [{
+				id: "317CAFFCADED663A"
+				type: "item"
+				item: {
+					id: "minecraft:iron_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Grandiose Hoe"
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["5CB7466E5B601C8F"]
+			id: "4FB4FC6E7B0D695A"
+			tasks: [{
+				id: "0B1FBB301ECA4EA3"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Standing it up for yourself"
+			x: -4.5d
+			y: 2.5d
+			description: ["Make an armor stand and stand it up yourself"]
+			dependencies: ["306FAA6754F6F6B2"]
+			id: "28D0D84314322B9F"
+			tasks: [{
+				id: "1F9B5C4F8372D80E"
+				type: "item"
+				item: "minecraft:armor_stand"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["28D0D84314322B9F"]
+			id: "1D4B4189F29DE694"
+			tasks: [{
+				id: "7C4C3BEF617B62CB"
+				type: "item"
+				item: {
+					id: "minecraft:iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["28D0D84314322B9F"]
+			id: "00492AE4E9EDCDA1"
+			tasks: [{
+				id: "19079ACE4BA1F322"
+				type: "item"
+				item: {
+					id: "minecraft:iron_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			dependencies: ["28D0D84314322B9F"]
+			id: "5AC3091F89A5E1F8"
+			tasks: [{
+				id: "0D00C515534E1C5C"
+				type: "item"
+				item: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			dependencies: ["28D0D84314322B9F"]
+			id: "0B6D7F0C44610B46"
+			tasks: [{
+				id: "7B486EA22586D84F"
+				type: "item"
+				item: {
+					id: "minecraft:iron_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["5CB7466E5B601C8F"]
+			id: "52DBD290A10DBEBB"
+			tasks: [{
+				id: "46ADE72F0AAD8D98"
+				type: "checkmark"
+				title: "This is just to make the quest flow look better, have an apple"
+			}]
+			rewards: [{
+				id: "2A017E0B809867A9"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["52DBD290A10DBEBB"]
+			id: "49839B29A07EE6A3"
+			tasks: [{
+				id: "6E3C4D17C534D22E"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["52DBD290A10DBEBB"]
+			id: "770663A831D51495"
+			tasks: [{
+				id: "53B9D8DC0F465D9F"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["52DBD290A10DBEBB"]
+			id: "6C2A9E66E36F2393"
+			tasks: [{
+				id: "14BA3F4CFBE3FEFB"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["52DBD290A10DBEBB"]
+			id: "36D027C2EFDC2D9B"
+			tasks: [{
+				id: "7BF1750CB16013B4"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "To Hell and High water!"
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["71C33BC89542DA21"]
+			id: "27EE4529CE079862"
+			tasks: [{
+				id: "1D9EE19EB99AADFB"
+				type: "advancement"
+				icon: "minecraft:netherrack"
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["27EE4529CE079862"]
+			id: "4209D42919BB88CB"
+			tasks: [{
+				id: "2CD819FC174EF64C"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			title: "Legendary Pickaxe"
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["4209D42919BB88CB"]
+			id: "7E00086DDC6E43E0"
+			tasks: [{
+				id: "299485F252F1ACAF"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Legendary Sword"
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["4209D42919BB88CB"]
+			id: "29A309F376B7E5BD"
+			tasks: [{
+				id: "4E9301283731E8CE"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Legendary Axe"
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["4209D42919BB88CB"]
+			id: "793D1E64245783FA"
+			tasks: [{
+				id: "4FEE6F4E64CFDABD"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Legendary Hoe"
+			x: 7.5d
+			y: 0.5d
+			dependencies: ["4209D42919BB88CB"]
+			id: "6FAC5507F2B00164"
+			tasks: [{
+				id: "38BCA7923BB295D2"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Subpar Shovel"
+			x: -10.5d
+			y: 1.5d
+			dependencies: ["543F54FF050952A5"]
+			id: "6A133416CB71FEA4"
+			tasks: [{
+				id: "232C09BE96183C3B"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Basic Shovel"
+			x: -6.5d
+			y: 1.5d
+			dependencies: ["5CEBDD2D69BDB9F7"]
+			id: "4AC2C2D7E50EBBC5"
+			tasks: [{
+				id: "72A0488AC021DF3D"
+				type: "item"
+				item: {
+					id: "minecraft:stone_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Superior Shovel"
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["306FAA6754F6F6B2"]
+			id: "430033A2168AAFC1"
+			tasks: [{
+				id: "3509FC4BB9FA7B4D"
+				type: "item"
+				item: {
+					id: "minecraft:iron_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Grandiose Shovel"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["5CB7466E5B601C8F"]
+			id: "0BF5C1ADD1847C2E"
+			tasks: [{
+				id: "30FF50D5DB260E95"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Legendary Shovel"
+			x: 7.5d
+			y: 1.5d
+			dependencies: ["4209D42919BB88CB"]
+			id: "50A4F740A3B2D399"
+			tasks: [{
+				id: "18F796617203353A"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "I don't want to set the world on fire, I want to burn this village."
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["306FAA6754F6F6B2"]
+			id: "5EBE31EFCCB364B4"
+			tasks: [{
+				id: "15D32FD01223B611"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "You mean to tell me this rock can send me to hell?"
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["5CB7466E5B601C8F"]
+			id: "09EBAD167749768A"
+			tasks: [{
+				id: "52A5876C000D6E5B"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			dependencies: ["27EE4529CE079862"]
+			id: "186810580CF6BDE8"
+			tasks: [{
+				id: "19D305A93FF6A3C0"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

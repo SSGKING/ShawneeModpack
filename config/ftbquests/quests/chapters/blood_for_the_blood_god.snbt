@@ -1,0 +1,11 @@
+{
+	id: "302D6628424BB7CF"
+	group: "6A76548D5BF3B1D6"
+	order_index: 1
+	filename: "blood_for_the_blood_god"
+	title: "BLOOD FOR THE BLOOD GOD"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

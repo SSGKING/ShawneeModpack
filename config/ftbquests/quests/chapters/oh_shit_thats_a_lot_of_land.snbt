@@ -1,0 +1,11 @@
+{
+	id: "0DA5F72D13480B6B"
+	group: "0718303B342A7CEB"
+	order_index: 0
+	filename: "oh_shit_thats_a_lot_of_land"
+	title: "Oh shit that's a lot of land"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

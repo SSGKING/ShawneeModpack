@@ -1,11 +1,26 @@
 {
 	id: "364479F3E740CED0"
 	group: "11E1314D519E6997"
-	order_index: 1
+	order_index: 0
 	filename: "tos"
 	title: "ToS"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		description: ["By checking this you understand and willfully comply with the terms of this checklist. If you do not comply or understand this checklist DO NOT check the check mark. This is not binding in any way, I just thought it would be funny, prepare for, like, seven more of these throught the entire mod pack."]
+		id: "045D7B6E0769F407"
+		tasks: [{
+			id: "6FF3DE4484AED260"
+			type: "checkmark"
+			title: "Terms of Service"
+		}]
+		rewards: [{
+			id: "093655EB76A3CFE1"
+			type: "item"
+			item: "minecraft:cobbled_deepslate"
+		}]
+	}]
 	quest_links: [ ]
 }

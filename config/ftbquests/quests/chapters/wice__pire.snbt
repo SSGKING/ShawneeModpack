@@ -1,0 +1,11 @@
+{
+	id: "256DD8FB9D128BFA"
+	group: "0718303B342A7CEB"
+	order_index: 6
+	filename: "wice__pire"
+	title: "Wice 'ampersand' Pire"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}
