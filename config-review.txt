@@ -1,0 +1,7 @@
+things to go back over:
+
+-JEI configs (when the modlist is finalized)
+-chance cubes event configs
+
+current config up to (but not including):
+-create
