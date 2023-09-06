@@ -12,7 +12,7 @@
 	#Range: > 0
 	min_fluid_fuel_temperature = 373
 	#Should dyes be used up when coloring things (Drones, Logistics Modules, Redstone Modules)?
-	use_up_dyes_when_coloring = false
+	use_up_dyes_when_coloring = true
 	#Cooldown, in ticks, between subsequent uses of Bandages. Set to 0 to disable cooldowns entirely.
 	#Range: > 0
 	bandage_cooldown = 160
@@ -48,7 +48,7 @@
 	aerial_interface_armor_compat = true
 	#Chance per tick of Crop Supports causing a growth tick. The default, 0.002, is roughly 2.5 times faster than the vanilla growth rate
 	#Range: 0.0 ~ 1.7976931348623157E308
-	crop_sticks_growth_boost_chance = 0.002
+	crop_sticks_growth_boost_chance = 0.001
 	#Changing this value will alter the pressurized air production of the Electric Compressor. The input, EU, will stay the same
 	#Range: > 0
 	electric_compressor_efficiency = 40
@@ -85,7 +85,7 @@
 	#Range: 0.0 ~ 40.0
 	manual_compressor_hunger_drain_per_cycle_step = 0.1
 	#Whether to allow fake players to use the manual compressor
-	manual_compressor_allow_fake_players = false
+	manual_compressor_allow_fake_players = true
 	#The amount of FE (Forge Energy) produced by using 100mL of air in the Pneumatic Dynamo
 	#Range: > 0
 	pneumatic_dynamo_efficiency = 40
@@ -342,7 +342,7 @@
 	#Are drones allowed to import Experience Orbs and convert them to Memory Essence fluid?
 	drones_can_import_xp_orbs = true
 	#Will Drones automatically get picked up by Boats/Minecarts/etc. if they're close enough?
-	drones_can_be_picked_up = false
+	drones_can_be_picked_up = true
 	#Show particle trail indicating the currently-debugged drone's planned path
 	drone_debugger_path_particles = true
 	#When set to true, Drones will not execute any program. This is useful to set to true when due to a bug Drones are lagging your server or crashing it. Please report any such bugs as a PneumaticCraft: Repressurized issue so it can be investigated.

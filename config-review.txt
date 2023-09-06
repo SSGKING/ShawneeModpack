@@ -2,6 +2,8 @@ things to go back over:
 
 -JEI configs (when the modlist is finalized)
 -chance cubes event configs
+-quark biome maps
+-check if quark reacharound breaks forge chunk protection
 
 current config up to (but not including):
--occultism
+-refined storage

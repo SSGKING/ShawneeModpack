@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
@@ -51,7 +51,7 @@
 	Gravisand = true
 	"Feeding Trough" = true
 	"Ender Watcher" = true
-	"Dispensers Place Blocks" = true
+	"Dispensers Place Blocks" = false
 	Chute = true
 	"Chains Connect Blocks" = true
 
@@ -255,7 +255,7 @@
 	[management.expanded_item_interactions]
 		"Enable Armor Interaction" = true
 		"Enable Shulker Box Interaction" = true
-		"Enable Lava Interaction" = true
+		"Enable Lava Interaction" = false
 
 	[management.easy_transfering]
 		"Enable Shift Lock" = true
@@ -398,8 +398,8 @@
 	"Grab Chickens" = true
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
-	Emotes = true
-	"Dragon Scales" = true
+	Emotes = false
+	"Dragon Scales" = false
 	"Double Door Opening" = true
 	"Compasses Work Everywhere" = true
 	"Campfires Boost Elytra" = true
@@ -469,7 +469,7 @@
 			B = 1.0
 
 	[tweaks.poison_potato_usage]
-		Chance = 0.1
+		Chance = 1.0
 		"Poison Effect" = true
 
 	[tweaks.pig_litters]
@@ -496,7 +496,7 @@
 		"Layer Limit" = 16
 
 	[tweaks.grab_chickens]
-		"Needs No Helmet" = true
+		"Needs No Helmet" = false
 		#Set to 0 to disable
 		"Slowness Level" = 1
 
@@ -504,7 +504,7 @@
 		#Allowed values: (,0]
 		"Fall Speed" = -0.2
 		"Allow Freestanding" = true
-		"Allow Dropping Down" = true
+		"Allow Dropping Down" = false
 		"Allow Sliding" = true
 		"Allow Inventory Sneak" = true
 
@@ -768,7 +768,7 @@
 	[world.fairy_rings]
 		"Forest Chance" = 0.00625
 		"Plains Chance" = 0.0025
-		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore"]
+		Ores = ["minecraft:emerald_ore"]
 
 		[world.fairy_rings.dimensions]
 			"Is Blacklist" = false
@@ -1446,7 +1446,7 @@
 		"Enable Shiny Rabbit" = true
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
-		"Enable L G B T Bees" = true
+		"Enable L G B T Bees" = false
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
@@ -1510,11 +1510,11 @@
 		"Hud Height" = 10
 
 [experimental]
-	"Zombie Villagers On Normal" = false
+	"Zombie Villagers On Normal" = true
 	"Spawner Replacer" = false
 	"Overlay Shader" = false
 	"Narrator Readout" = false
-	"Game Nerfs" = false
+	"Game Nerfs" = true
 	"Enchantments Begone" = false
 	"Adjustable Chat" = false
 
@@ -1532,15 +1532,15 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = true
+		"Nerf Mending" = false
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = true
+		"Disable Iron Farms" = false
 		#Makes Boats not glide on ice
-		"Disable Ice Roads" = true
+		"Disable Ice Roads" = false
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		"Disable Wool Drops" = false
 
 	[experimental.enchantments_begone]
 		"Enchantments To Begone" = []
@@ -1550,13 +1550,13 @@
 		"Vertical Shift" = 0
 
 [oddities]
-	"Totem Of Holding" = true
-	"Tiny Potato" = true
-	Pipes = true
+	"Totem Of Holding" = false
+	"Tiny Potato" = false
+	Pipes = false
 	"Matrix Enchanting" = true
-	Magnets = true
+	Magnets = false
 	Crate = true
-	Backpack = true
+	Backpack = false
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
