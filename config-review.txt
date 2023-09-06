@@ -4,4 +4,4 @@ things to go back over:
 -chance cubes event configs
 
 current config up to (but not including):
--create
+-occultism

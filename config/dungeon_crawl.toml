@@ -13,11 +13,11 @@
 	#----------------------------------------------------------------------------------------------------+
 	# Whether falling blocks like sand or gravel should drop down after being placed during dungeon generation.
 	#
-	tick_falling_blocks = true
+	tick_falling_blocks = false
 	#----------------------------------------------------------------------------------------------------+
 	# Makes the entire dungeon solid, preventing caves, ravines, etc... from interfering with the dungeon.
 	#
-	solid = false
+	solid = true
 
 ["Dungeon Settings"]
 	#----------------------------------------------------------------------------------------------------+
