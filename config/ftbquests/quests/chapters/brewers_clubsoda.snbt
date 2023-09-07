@@ -6,6 +6,38 @@
 	title: "Brewer's clubsoda"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: -0.5d
+		y: 0.0d
+		description: ["Ahhh alcohol, the great drink for celebrations, or something I don't know, Look this mod is just like four items, a keg, a mug, hops, and dried wheat seeds. The recipies are in NEI, go wild."]
+		id: "2C19F5BAF2B43E97"
+		tasks: [{
+			id: "761B3E5A1418E9DF"
+			type: "checkmark"
+			title: "Brewer's Clubsoda"
+		}]
+		rewards: [
+			{
+				id: "05BAC07D1FF7B0E3"
+				type: "item"
+				item: "alcocraft:hop_seeds"
+			}
+			{
+				id: "279BDE6940DBC2DF"
+				type: "item"
+				item: "alcocraft:spruce_mug_empty"
+			}
+			{
+				id: "7B11A50E5D411579"
+				type: "item"
+				item: "alcocraft:spruce_keg"
+			}
+			{
+				id: "6C5B7A0ADD2F83D9"
+				type: "item"
+				item: "alcocraft:hop"
+			}
+		]
+	}]
 	quest_links: [ ]
 }

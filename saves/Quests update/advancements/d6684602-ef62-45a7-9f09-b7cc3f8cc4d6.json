@@ -1,13 +1,13 @@
 {
-  "twilightforest:alt/entities/hydra": {
-    "criteria": {
-      "hurt": "2023-09-06 22:07:14 -0400"
-    },
-    "done": true
-  },
   "twilightforest:alt/treasures/scepters": {
     "criteria": {
       "has_twilight": "2023-09-06 21:59:00 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/hydra": {
+    "criteria": {
+      "hurt": "2023-09-06 22:07:14 -0400"
     },
     "done": true
   },
@@ -30,17 +30,17 @@
     },
     "done": false
   },
-  "twilightforest:alt/treasures/trophies": {
-    "criteria": {
-      "naga": "2023-09-06 21:56:58 -0400"
-    },
-    "done": true
-  },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "wheat": "2023-09-06 21:16:14 -0400"
     },
     "done": false
+  },
+  "twilightforest:alt/treasures/trophies": {
+    "criteria": {
+      "naga": "2023-09-06 21:56:58 -0400"
+    },
+    "done": true
   },
   "lootr:root": {
     "criteria": {
@@ -66,15 +66,15 @@
     },
     "done": true
   },
-  "tconstruct:internal/starting_book": {
+  "byg:root": {
     "criteria": {
       "tick": "2023-09-06 20:42:53 -0400"
     },
     "done": true
   },
-  "byg:root": {
+  "minecraft:story/mine_stone": {
     "criteria": {
-      "tick": "2023-09-06 20:42:53 -0400"
+      "get_stone": "2023-09-06 20:43:12 -0400"
     },
     "done": true
   },
@@ -84,12 +84,6 @@
       "was_in_fight": "2023-09-06 22:19:05 -0400"
     },
     "done": false
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2023-09-06 20:43:12 -0400"
-    },
-    "done": true
   },
   "twilightforest:progress_naga": {
     "criteria": {
@@ -157,15 +151,15 @@
     },
     "done": true
   },
-  "twilightforest:alt/treasures/fiery_armor_set": {
-    "criteria": {
-      "has_tears": "2023-09-06 22:18:31 -0400"
-    },
-    "done": true
-  },
   "psi:main/ebony_pickup": {
     "criteria": {
       "flower": "2023-09-06 20:42:53 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/fiery_armor_set": {
+    "criteria": {
+      "has_tears": "2023-09-06 22:18:31 -0400"
     },
     "done": true
   },
@@ -175,27 +169,27 @@
     },
     "done": true
   },
-  "twilightforest:alt/treasures/ice_bomb": {
-    "criteria": {
-      "has_item": "2023-09-06 22:17:21 -0400"
-    },
-    "done": true
-  },
   "twilightforest:alt/entities/lich": {
     "criteria": {
       "hurt": "2023-09-06 21:59:05 -0400"
     },
     "done": true
   },
-  "minecraft:adventure/root": {
+  "twilightforest:alt/treasures/ice_bomb": {
     "criteria": {
-      "killed_something": "2023-09-06 21:56:58 -0400"
+      "has_item": "2023-09-06 22:17:21 -0400"
     },
     "done": true
   },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2023-09-06 21:16:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-09-06 21:56:58 -0400"
     },
     "done": true
   },
@@ -212,21 +206,33 @@
     },
     "done": false
   },
-  "twilightforest:alt/treasures/yeti_armor_set": {
-    "criteria": {
-      "has_ingredient": "2023-09-06 22:17:22 -0400"
-    },
-    "done": true
-  },
   "twilightforest:alt/entities/ur_ghast": {
     "criteria": {
       "hurt": "2023-09-06 22:00:31 -0400"
     },
     "done": true
   },
+  "twilightforest:alt/treasures/yeti_armor_set": {
+    "criteria": {
+      "has_ingredient": "2023-09-06 22:17:22 -0400"
+    },
+    "done": true
+  },
+  "alcocraft:hop": {
+    "criteria": {
+      "requirement": "2023-09-07 17:53:24 -0400"
+    },
+    "done": true
+  },
   "farmersdelight:main/root": {
     "criteria": {
       "seeds": "2023-09-06 20:42:53 -0400"
+    },
+    "done": true
+  },
+  "alcocraft:keg": {
+    "criteria": {
+      "requirement": "2023-09-07 17:53:22 -0400"
     },
     "done": true
   },
@@ -279,15 +285,15 @@
     },
     "done": true
   },
-  "twilightforest:experiment_115": {
-    "criteria": {
-      "eat_experiment_115": "2023-09-06 22:31:07 -0400"
-    },
-    "done": true
-  },
   "twilightforest:alt/entities/knight_phantom": {
     "criteria": {
       "hurt": "2023-09-06 22:19:04 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:experiment_115": {
+    "criteria": {
+      "eat_experiment_115": "2023-09-06 22:31:07 -0400"
     },
     "done": true
   },
@@ -333,17 +339,17 @@
     },
     "done": true
   },
-  "twilightforest:progress_merge": {
-    "criteria": {
-      "snow_queen": "2023-09-06 22:17:21 -0400"
-    },
-    "done": false
-  },
   "naturescompass:natures_compass_log": {
     "criteria": {
       "has_recipe": "2023-09-06 20:42:53 -0400"
     },
     "done": true
+  },
+  "twilightforest:progress_merge": {
+    "criteria": {
+      "snow_queen": "2023-09-06 22:17:21 -0400"
+    },
+    "done": false
   },
   "psi:main/root": {
     "criteria": {
@@ -390,21 +396,15 @@
     },
     "done": true
   },
-  "twilightforest:alt/treasures/fiery_tool_set": {
-    "criteria": {
-      "has_tears": "2023-09-06 22:18:31 -0400"
-    },
-    "done": true
-  },
   "twilightforest:alt/treasures/foods/meef": {
     "criteria": {
       "has_raw": "2023-09-06 22:12:21 -0400"
     },
     "done": true
   },
-  "twilightforest:alt/treasures/triple_bow": {
+  "twilightforest:alt/treasures/fiery_tool_set": {
     "criteria": {
-      "has_item": "2023-09-06 22:03:37 -0400"
+      "has_tears": "2023-09-06 22:18:31 -0400"
     },
     "done": true
   },
@@ -414,15 +414,21 @@
     },
     "done": true
   },
-  "twilightforest:alt/treasures/foods/hydra_chop": {
+  "twilightforest:alt/treasures/triple_bow": {
     "criteria": {
-      "has_item": "2023-09-06 22:18:31 -0400"
+      "has_item": "2023-09-06 22:03:37 -0400"
     },
     "done": true
   },
   "occultism:occultism/root": {
     "criteria": {
       "occultism_present": "2023-09-06 20:42:53 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/foods/hydra_chop": {
+    "criteria": {
+      "has_item": "2023-09-06 22:18:31 -0400"
     },
     "done": true
   },

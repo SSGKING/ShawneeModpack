@@ -3,9 +3,278 @@
 	group: "6A76548D5BF3B1D6"
 	order_index: 1
 	filename: "blood_for_the_blood_god"
-	title: "BLOOD FOR THE BLOOD GOD"
+	title: "BLOOD FOR THE BLOOD GOD!"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"I've got a secret to tell you, your going in the pot. I'm gonna use your blood to make an amulet that lets me feed off of blood during bloody combat, you bloody fool."
+				""
+			]
+			id: "6060F10C11070FFC"
+			tasks: [{
+				id: "52B1207ECBC92501"
+				type: "checkmark"
+				title: "BLOOD FOR THE BLOOD GOD!"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["777297DC9C491790"]
+			id: "0F3EE07EC3BE3545"
+			tasks: [{
+				id: "5912B49C4D4E98EE"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["0F3EE07EC3BE3545"]
+			id: "025963584F806027"
+			tasks: [{
+				id: "7628AA30E864E292"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			dependencies: ["025963584F806027"]
+			id: "13E2E5EEFF6FEB7A"
+			tasks: [{
+				id: "35B642EB8BD03A39"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["6060F10C11070FFC"]
+			id: "777297DC9C491790"
+			tasks: [{
+				id: "0CA2369C63CA1D68"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			id: "37B80AE6D509E30D"
+			tasks: [{
+				id: "1F4F0CF466F59F56"
+				type: "item"
+				item: "bloodmagic:speedrune"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			id: "077D972B7C10EE6F"
+			tasks: [{
+				id: "3F873072E39C3366"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			id: "4734BB6539ADDB62"
+			tasks: [{
+				id: "6852A7CECE31E9DC"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.0d
+			id: "7EE8ED08E11B2428"
+			tasks: [{
+				id: "1BFB40AA0EE8088F"
+				type: "item"
+				item: "bloodmagic:dislocationrune"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.0d
+			id: "3C9CD20ECB99E561"
+			tasks: [{
+				id: "49EC51191877B406"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			id: "139C6007DDEB45BF"
+			tasks: [{
+				id: "0B699D49E33E07ED"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			id: "27214BEEB6379347"
+			tasks: [{
+				id: "7A89349D836B481F"
+				type: "item"
+				item: "bloodmagic:orbcapacityrune"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			id: "5E8A580C5B4AFF2F"
+			tasks: [{
+				id: "28696A43E11CED40"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			id: "2B7ECA497FDA7892"
+			tasks: [{
+				id: "64720AA0B004364F"
+				type: "item"
+				item: "bloodmagic:chargingrune"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			id: "26146DEEEA23A93B"
+			tasks: [{
+				id: "223142DF4BE4F1B0"
+				type: "item"
+				item: "bloodmagic:speedrune2"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			id: "1413250A374D93A8"
+			tasks: [{
+				id: "76E03B826EACFEC4"
+				type: "item"
+				item: "bloodmagic:sacrificerune2"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			id: "6C252B0C037D7533"
+			tasks: [{
+				id: "203FFF41090A0C39"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune2"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			id: "3993581DA7CEC65E"
+			tasks: [{
+				id: "74B41377A30042F5"
+				type: "item"
+				item: "bloodmagic:dislocationrune2"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.5d
+			id: "64641E5505240BBF"
+			tasks: [{
+				id: "628DB90A2C3854C9"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune2"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			id: "1EB77EC9FEECF4B5"
+			tasks: [{
+				id: "40AE98580AE2E1D3"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune2"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			id: "08D2D1D76EF9AD3F"
+			tasks: [{
+				id: "7BCDEE64DE328503"
+				type: "item"
+				item: "bloodmagic:orbcapacityrune2"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			id: "4D64E3310B5D9E58"
+			tasks: [{
+				id: "78DCF2B85895A9DE"
+				type: "item"
+				item: "bloodmagic:accelerationrune2"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			id: "372EA3D89F8AA7D8"
+			tasks: [{
+				id: "2DD68B3E995E9B9D"
+				type: "item"
+				item: "bloodmagic:chargingrune2"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			id: "49C582314FA3D7E0"
+			tasks: [{
+				id: "38F38B09475AB689"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			id: "07C8F1D448429DF6"
+			tasks: [{
+				id: "4D171FF64425047F"
+				type: "item"
+				item: "bloodmagic:bloodlightsigil"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

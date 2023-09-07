@@ -14,7 +14,10 @@
         "bloodmagic:rituals/ritual_list/ritual_green_grove",
         "bloodmagic:rituals/ritual_list/ritual_animal_growth",
         "bloodmagic:rituals/ritual_list/ritual_lava",
-        "bloodmagic:rituals/ritual_list/ritual_yawning_void"
+        "bloodmagic:rituals/ritual_list/ritual_yawning_void",
+        "bloodmagic:altar/blood_altar",
+        "bloodmagic:altar/redstone_automation",
+        "bloodmagic:altar/slates"
       ],
       "bookmarks": [],
       "completedManualQuests": []

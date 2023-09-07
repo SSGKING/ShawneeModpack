@@ -92,6 +92,7 @@
 #7E2654 minecraft:sandstone
 #33130F create:scoria
 #74E2CA byg:soapstone
+#17E8C7 alcocraft:spruce_keg
 #DC3458 minecraft:stone
 #B21185 minecraft:stone_brick_slab
 #43D995 minecraft:stone_brick_stairs
@@ -108,6 +109,7 @@
 #CE8FAE minecraft:white_terracotta
 #705156 byg:windswept_sand
 #51E0EF byg:windswept_sandstone
+#521E56 cgm:workbench
 #D9C16D quark:yellow_blossom_leaves
 #CC6A83 minecraft:yellow_terracotta
 #6137CB create:zinc_ore

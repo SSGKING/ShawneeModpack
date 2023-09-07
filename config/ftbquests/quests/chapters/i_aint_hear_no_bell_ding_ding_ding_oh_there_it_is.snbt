@@ -3,9 +3,126 @@
 	group: "744385B4CFA7D760"
 	order_index: 1
 	filename: "i_aint_hear_no_bell_ding_ding_ding_oh_there_it_is"
-	title: "I ain't hear no bell. 'ding ding ding' Oh there it is"
+	title: "I ain't hear no bell."
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["25B3B5569CCCE61C"]
+			id: "307F9B684DD49D4D"
+			tasks: [{
+				id: "6EB434D11049494C"
+				type: "item"
+				item: "meetyourfight:haunted_bell"
+			}]
+			rewards: [{
+				id: "6AC2D3BC8EAE7B51"
+				type: "item"
+				item: "farmersdelight:apple_pie"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			id: "6D8FDEE7E05B734E"
+			tasks: [{
+				id: "7011B71E3D7B4F8D"
+				type: "kill"
+				entity: "meetyourfight:bellringer"
+				value: 5L
+			}]
+			rewards: [{
+				id: "26BBBD04E1014B43"
+				type: "item"
+				item: "meetyourfight:phantoplasm"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["307F9B684DD49D4D"]
+			id: "2EB1F0C3FC2763B7"
+			tasks: [{
+				id: "032F590A0F10CF40"
+				type: "item"
+				item: "meetyourfight:devils_ante"
+			}]
+			rewards: [{
+				id: "6D119C8AC7B8CE69"
+				type: "item"
+				item: "farmersdelight:chocolate_pie"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["2EB1F0C3FC2763B7"]
+			id: "1049C1D439527B1B"
+			tasks: [{
+				id: "6AC272A0A2CCDAC2"
+				type: "item"
+				item: "meetyourfight:fossil_bait"
+			}]
+			rewards: [{
+				id: "2C881CC78332A287"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			id: "796EF6AC7D039724"
+			tasks: [{
+				id: "30024D08944ADC6F"
+				type: "kill"
+				entity: "meetyourfight:dame_fortuna"
+				value: 5L
+			}]
+			rewards: [{
+				id: "5CE918EC3F635C03"
+				type: "item"
+				item: "meetyourfight:fortunes_favor"
+				count: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			id: "361C852E9C403948"
+			tasks: [{
+				id: "5B686E0566EFF386"
+				type: "kill"
+				entity: "meetyourfight:swampjaw"
+				value: 5L
+			}]
+			rewards: [{
+				id: "23B2AA5B0C75A8AB"
+				type: "item"
+				item: "meetyourfight:mossy_tooth"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: [" Look all i'm saying is it'll be a fun prank, I run up ring the bell and run away, i'm sure he'll be fine. "]
+			id: "25B3B5569CCCE61C"
+			tasks: [{
+				id: "1E5201F8B022188D"
+				type: "checkmark"
+				title: "I ain't hear no bell."
+			}]
+			rewards: [{
+				id: "25DEE4127050EDC1"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 2
+			}]
+		}
+	]
 	quest_links: [ ]
 }

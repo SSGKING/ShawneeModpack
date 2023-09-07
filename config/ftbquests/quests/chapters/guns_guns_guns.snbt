@@ -6,6 +6,67 @@
 	title: "guns, Guns, GUNS!"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "guns, Guns, GUNS!"
+			x: 0.0d
+			y: 0.0d
+			description: ["This is america, make yourself a Workbench, and yes it has to be light gray concrete, no I don't know why."]
+			id: "3F7C8CE836F8E644"
+			tasks: [
+				{
+					id: "4D7B0B7336FCC347"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 5L
+				}
+				{
+					id: "5F078ED4F54CBDC2"
+					type: "item"
+					item: "minecraft:light_gray_concrete"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "3D14949DF2621A67"
+				type: "item"
+				item: "cgm:basic_bullet"
+				count: 16
+			}]
+		}
+		{
+			title: "Get off mah propertah"
+			x: 1.5d
+			y: 0.0d
+			description: ["Now make yourself a gun and protect your property."]
+			dependencies: ["3F7C8CE836F8E644"]
+			id: "1948CB7F0899F8C6"
+			tasks: [
+				{
+					id: "652BDCD4A1963F73"
+					type: "item"
+					item: {
+						id: "cgm:pistol"
+						Count: 1b
+						tag: {
+							AmmoCount: 16
+						}
+					}
+				}
+				{
+					id: "53D7B26808B9EF23"
+					type: "item"
+					item: "cgm:basic_bullet"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "3C6E71FD32615633"
+				type: "item"
+				item: "cgm:grenade"
+				count: 4
+			}]
+		}
+	]
 	quest_links: [ ]
 }
