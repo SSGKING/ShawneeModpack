@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "35ae49abe2d64c908531597d524002f1"
+	name: "StarmasterK13"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

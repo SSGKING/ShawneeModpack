@@ -2,13 +2,17 @@
 #244 byg:atacama_desert
 #6F6 minecraft:badlands
 #556 minecraft:beach
+#008 minecraft:desert
 #614 minecraft:eroded_badlands
 #637 byg:firecracker_shrubland
 #07C byg:mojave_desert
 #3DC minecraft:plains
 #4AA byg:rainbow_beach
+#1DB byg:red_rock_valley
 #5FF minecraft:river
 #67B minecraft:savanna
 #4C0 byg:sierra_badlands
+#3AF minecraft:sparse_jungle
 #2B7 minecraft:warm_ocean
 #6F1 byg:windswept_beach
+#467 byg:windswept_desert

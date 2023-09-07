@@ -4,6 +4,5 @@ things to go back over:
 -chance cubes event configs
 -quark biome maps
 -check if quark reacharound breaks forge chunk protection
-
-current config up to (but not including):
--refined storage
+-storage drawers compacting
+-twilight forest ore stalactites for modded ores

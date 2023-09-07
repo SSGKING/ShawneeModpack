@@ -18,7 +18,7 @@ shouldReturnPortalBeUsable = true
 #Use a valid advancement resource location as a string. For example, using the string "minecraft:story/mine_diamond" will lock the portal behind the "Diamonds!" advancement. Invalid/Empty Advancement resource IDs will leave the portal entirely unlocked.
 portalUnlockedByAdvancement = ""
 #If true, Keepsake Caskets that are spawned when a player dies will not be accessible by other players. Use this if you dont want people taking from other people's death caskets. NOTE: server operators will still be able to open locked caskets.
-uuid_locking = false
+uuid_locking = true
 #If true, disables the ability to make Skull Candles by right clicking a vanilla skull with a candle. Turn this on if you're having mod conflict issues for some reason.
 skull_candles = false
 
@@ -66,12 +66,12 @@ skull_candles = false
 	#If true, this will invert the above option from a blacklist to a whitelist.
 	flipIdList = false
 	#Disable the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior.
-	disableUncrafting = false
+	disableUncrafting = true
 
 #We recommend downloading the Shield Parry mod for parrying, but these controls remain for without.
 ["Shield Parrying"]
 	#Set to true to parry non-Twilight projectiles.
-	parryNonTwilightAttacks = false
+	parryNonTwilightAttacks = true
 	#The amount of ticks after raising a shield that makes it OK to parry an arrow.
 	#Range: > 0
 	shieldParryTicksArrow = 40
