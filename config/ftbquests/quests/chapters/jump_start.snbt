@@ -82,9 +82,9 @@
 				}
 			]
 			rewards: [{
-				id: "0B32AD07E6025B48"
+				id: "5E93DF193C17AB51"
 				type: "item"
-				item: "minecraft:iron_ingot"
+				item: "create:andesite_alloy"
 				count: 16
 			}]
 		}
@@ -106,19 +106,11 @@
 					consume_items: true
 				}
 			]
-			rewards: [
-				{
-					id: "35309FBCA9991CD9"
-					type: "item"
-					item: "minecraft:pig_spawn_egg"
-					count: 2
-				}
-				{
-					id: "60C42F1EB8C28518"
-					type: "item"
-					item: "minecraft:creeper_head"
-				}
-			]
+			rewards: [{
+				id: "7031FEEC33A05F5A"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
 		}
 		{
 			x: -5.0d
@@ -273,6 +265,18 @@
 					type: "item"
 					item: "minecraft:wheat_seeds"
 					count: 6
+				}
+				{
+					id: "11404BD56CD26125"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 3
+				}
+				{
+					id: "7B1DA77825132A00"
+					type: "item"
+					item: "minecraft:potato"
+					count: 3
 				}
 			]
 		}

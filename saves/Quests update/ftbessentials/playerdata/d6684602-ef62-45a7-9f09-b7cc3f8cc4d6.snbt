@@ -1,0 +1,11 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "ZergPsychotic"
+	last_seen: { dim: "minecraft:overworld", x: 51, y: 63, z: -74, time: 1694053979696L, xRot: 37.166367f, yRot: 46.500854f }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}

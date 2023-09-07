@@ -1,0 +1,14 @@
+#6EA byg:amaranth_fields
+#244 byg:atacama_desert
+#6F6 minecraft:badlands
+#556 minecraft:beach
+#614 minecraft:eroded_badlands
+#637 byg:firecracker_shrubland
+#07C byg:mojave_desert
+#3DC minecraft:plains
+#4AA byg:rainbow_beach
+#5FF minecraft:river
+#67B minecraft:savanna
+#4C0 byg:sierra_badlands
+#2B7 minecraft:warm_ocean
+#6F1 byg:windswept_beach

@@ -23,7 +23,14 @@
 						value: "minecraft:logs"
 					}
 				}
+				count: 16L
 				consume_items: false
+			}]
+			rewards: [{
+				id: "7F495C19181D4F8D"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 16
 			}]
 		}
 		{
@@ -44,6 +51,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1F7533951210ED7A"
+				type: "item"
+				item: "farmersdelight:apple_pie_slice"
+				count: 4
+			}]
 		}
 		{
 			title: "Subpar Axe"
@@ -62,6 +75,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "614DE814FDB81CEA"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 6
+				}
+				{
+					id: "0AE9BAAE4C188B72"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 6
+				}
+				{
+					id: "04D9F433FE00B068"
+					type: "item"
+					item: "minecraft:jungle_log"
+					count: 6
+				}
+			]
 		}
 		{
 			title: "Subpar Pickaxe"
@@ -80,6 +113,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "78AFD7B235D57068"
+				type: "item"
+				item: "minecraft:coal"
+				count: 12
+			}]
 		}
 		{
 			title: "Subpar Sword"
@@ -97,6 +136,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "33D6905E9183F11B"
+				type: "item"
+				item: "buddycards:buddycard_binder_base"
 			}]
 		}
 		{
@@ -117,6 +161,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3993D6DF33107627"
+				type: "item"
+				item: "minecraft:apple"
+				count: 4
+			}]
 		}
 		{
 			title: "Slow Smelting"
@@ -128,6 +178,12 @@
 				id: "5FC1ED12D4712269"
 				type: "item"
 				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "7B8609C5356AEDEA"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 8
 			}]
 		}
 		{
@@ -147,6 +203,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "1C31EC07174504F5"
+					type: "item"
+					item: "minecraft:acacia_log"
+					count: 8
+				}
+				{
+					id: "4353EA2F620EAD5C"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 8
+				}
+				{
+					id: "055F70B2561FCF7B"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Basic Pickaxe"
@@ -164,6 +240,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7019DFCE20F510B3"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 			}]
 		}
 		{
@@ -183,6 +264,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "26694202F9FDFAC5"
+				type: "item"
+				item: "buddycards:buddycard_binder_nether"
+			}]
 		}
 		{
 			title: "Meager Storage"
@@ -193,8 +279,29 @@
 			tasks: [{
 				id: "43541C36C00551EB"
 				type: "item"
-				item: "minecraft:chest"
+				title: "Any #forge:chests/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				count: 2L
 			}]
+			rewards: [
+				{
+					id: "572EB88298E8E125"
+					type: "item"
+					item: "minecraft:pumpkin_pie"
+				}
+				{
+					id: "36A77E6E9D057355"
+					type: "item"
+					item: "minecraft:chest"
+					count: 2
+				}
+			]
 		}
 		{
 			title: "Smelting Iron"
@@ -206,6 +313,12 @@
 				id: "1C637232C4DE34E8"
 				type: "item"
 				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "725C6648FADB0C0D"
+				type: "item"
+				item: "farmersdelight:apple_pie"
+				count: 2
 			}]
 		}
 		{
@@ -225,6 +338,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "283B650977E888BA"
+					type: "item"
+					item: "tropicraft:mahogany_log"
+					count: 10
+				}
+				{
+					id: "5A10A6592F68DFA8"
+					type: "item"
+					item: "tropicraft:palm_log"
+					count: 10
+				}
+				{
+					id: "000951853140E36A"
+					type: "item"
+					item: "tropicraft:papaya_log"
+					count: 10
+				}
+			]
 		}
 		{
 			title: "Superior Pickaxe"
@@ -243,6 +376,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "09319792495F991F"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 8
+				}
+				{
+					id: "20B022D618DA9558"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 2
+				}
+				{
+					id: "6A574BACDF948849"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
 		}
 		{
 			title: "Superior Sword"
@@ -261,6 +414,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4A336DEB7DDBB2F4"
+				type: "item"
+				item: "buddycards:buddycard_binder_end"
+			}]
 		}
 		{
 			title: "Finding Diamonds"
@@ -272,6 +430,12 @@
 				id: "308B1F76065C1A48"
 				type: "item"
 				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "4FA67D035D40C1B2"
+				type: "item"
+				item: "farmersdelight:apple_cider"
+				count: 6
 			}]
 		}
 		{
@@ -291,6 +455,20 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "271A5211EBF34D93"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 3
+				}
+				{
+					id: "2B39911891849549"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Grandiose Axe"
@@ -309,6 +487,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "74EBA23C4F462E05"
+					type: "item"
+					item: "tconstruct:greenheart_log"
+					count: 12
+				}
+				{
+					id: "547ED61ED21696AD"
+					type: "item"
+					item: "tconstruct:skyroot_log"
+					count: 12
+				}
+				{
+					id: "431E2EF94DC79F3F"
+					type: "item"
+					item: "byg:aspen_log"
+					count: 12
+				}
+			]
 		}
 		{
 			title: "Grandiose Sword"
@@ -326,6 +524,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1378F6F1B954D271"
+				type: "item"
+				item: "buddycards:ender_buddycard_binder"
 			}]
 		}
 		{
@@ -345,6 +548,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "750F68F981505C44"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 4
+			}]
 		}
 		{
 			title: "Basic Hoe"
@@ -362,6 +571,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "0846139B69CAEEA1"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 6
 			}]
 		}
 		{
@@ -381,6 +596,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "05D38F7CD3F53DBF"
+				type: "item"
+				item: "croptopia:artichoke_seed"
+				count: 6
+			}]
 		}
 		{
 			title: "Grandiose Hoe"
@@ -399,6 +620,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "055E154D02BDAA7D"
+				type: "item"
+				item: "thermal:strawberry_seeds"
+				count: 6
+			}]
 		}
 		{
 			title: "Standing it up for yourself"
@@ -411,6 +638,12 @@
 				id: "1F9B5C4F8372D80E"
 				type: "item"
 				item: "minecraft:armor_stand"
+			}]
+			rewards: [{
+				id: "67489075E4C90BB3"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 8
 			}]
 		}
 		{
@@ -429,6 +662,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0B0BD3B7C6A8EDA5"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 3
+			}]
 		}
 		{
 			x: -4.0d
@@ -445,6 +684,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "398CDA34068CF6C6"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 6
 			}]
 		}
 		{
@@ -463,6 +708,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "423340652EB0F9B8"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 7
+			}]
 		}
 		{
 			x: -6.0d
@@ -479,6 +730,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7200FC0479B99696"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -513,6 +770,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3174A3ED15AAAADD"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -529,6 +792,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "501A2771754E44B8"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 7
 			}]
 		}
 		{
@@ -547,6 +816,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "21789A69BDF287D7"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 6
+			}]
 		}
 		{
 			x: 1.0d
@@ -564,6 +839,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "29AECC6EEC10C619"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3
+			}]
 		}
 		{
 			title: "To Hell and High water!"
@@ -580,6 +861,7 @@
 			}]
 		}
 		{
+			title: "\"Final\" Tier of gear"
 			x: 5.5d
 			y: -1.5d
 			dependencies: ["27EE4529CE079862"]
@@ -588,6 +870,12 @@
 				id: "2CD819FC174EF64C"
 				type: "item"
 				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [{
+				id: "1AD217E90105E427"
+				type: "item"
+				item: "minecraft:golden_apple"
+				count: 2
 			}]
 		}
 		{
@@ -607,6 +895,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "5B18431A49A6E9DF"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 3
+				}
+				{
+					id: "097911F5C94C5CAA"
+					type: "item"
+					item: "pneumaticcraft:drill_bit_diamond"
+				}
+			]
 		}
 		{
 			title: "Legendary Sword"
@@ -625,6 +926,28 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "6890FAE4D16B204E"
+					type: "item"
+					item: "buddycards:buddycard_pack_base"
+				}
+				{
+					id: "2701535CAC615CFD"
+					type: "item"
+					item: "buddycards:buddycard_pack_nether"
+				}
+				{
+					id: "69B894E384DD8410"
+					type: "item"
+					item: "buddycards:buddycard_pack_end"
+				}
+				{
+					id: "3B8C0DD51F4E1A6C"
+					type: "item"
+					item: "buddycards:buddycard_pack_mystery"
+				}
+			]
 		}
 		{
 			title: "Legendary Axe"
@@ -643,6 +966,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "204408616BCB82AB"
+					type: "item"
+					item: "byg:fir_log"
+					count: 14
+				}
+				{
+					id: "3E9FFA0FBC3B1622"
+					type: "item"
+					item: "twilightforest:canopy_log"
+					count: 14
+				}
+				{
+					id: "6C2DD1E6072F1733"
+					type: "item"
+					item: "blue_skies:cherry_log"
+					count: 14
+				}
+			]
 		}
 		{
 			title: "Legendary Hoe"
@@ -661,6 +1004,25 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "4E767014D612CF98"
+					type: "item"
+					item: "croptopia:tea_seed"
+					count: 6
+				}
+				{
+					id: "6892CCDCD1123437"
+					type: "item"
+					item: {
+						id: "quark:seed_pouch"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Subpar Shovel"
@@ -678,6 +1040,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6FD65E8B23553A27"
+				type: "item"
+				item: "minecraft:sand"
+				count: 8
 			}]
 		}
 		{
@@ -697,6 +1065,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "471562485C86DF6F"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 8
+			}]
 		}
 		{
 			title: "Superior Shovel"
@@ -714,6 +1088,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "624034B2792193C0"
+				type: "item"
+				item: "minecraft:clay"
+				count: 2
 			}]
 		}
 		{
@@ -733,6 +1113,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "66C45C5D4CF170B5"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 8
+			}]
 		}
 		{
 			title: "Legendary Shovel"
@@ -751,6 +1137,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7FFA1059D11D80F5"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 12
+			}]
 		}
 		{
 			title: "I don't want to set the world on fire, I want to burn this village."
@@ -760,6 +1152,17 @@
 			id: "5EBE31EFCCB364B4"
 			tasks: [{
 				id: "15D32FD01223B611"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5422DB4592B4C3E8"
 				type: "item"
 				item: {
 					id: "minecraft:flint_and_steel"
@@ -780,6 +1183,12 @@
 				id: "52A5876C000D6E5B"
 				type: "item"
 				item: "minecraft:obsidian"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0CAE9F4FC227338E"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
 			}]
 		}
 		{
@@ -792,6 +1201,60 @@
 				type: "item"
 				item: "minecraft:gold_ingot"
 			}]
+			rewards: [{
+				id: "42917FABF23B301A"
+				type: "item"
+				item: "quark:apple_crate"
+				count: 2
+			}]
+		}
+		{
+			title: "Well you did it."
+			x: 12.0d
+			y: 0.0d
+			shape: "heart"
+			description: ["Well you did it, you completed all the base game mincraft stuff. Congrats. Here's a cookie and some apples."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3A05B5414ADF366B"
+				"543F54FF050952A5"
+				"5CEBDD2D69BDB9F7"
+				"306FAA6754F6F6B2"
+				"5CB7466E5B601C8F"
+				"4209D42919BB88CB"
+				"49074F89D803C495"
+				"4AC2C2D7E50EBBC5"
+				"4BBC199310F1515E"
+				"18121D8D8FE6105B"
+				"6FAC5507F2B00164"
+				"1D4B4189F29DE694"
+				"36D027C2EFDC2D9B"
+			]
+			hide: true
+			size: 6.0d
+			id: "5F4F80A599FE1528"
+			tasks: [{
+				id: "2CE5697F71DA2435"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "775826253424EBAA"
+					type: "item"
+					item: "quark:golden_apple_crate"
+				}
+				{
+					id: "42C797C3CA503EA5"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+				{
+					id: "30CBDD7B6F9F5217"
+					type: "item"
+					title: "Choco-Cookie"
+					item: "croptopia:raisin_oatmeal_cookie"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

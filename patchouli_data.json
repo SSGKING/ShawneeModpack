@@ -18,6 +18,14 @@
       ],
       "bookmarks": [],
       "completedManualQuests": []
+    },
+    "croptopia:guide": {
+      "viewedEntries": [
+        "croptopia:crops/trees",
+        "croptopia:crops/crops"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
     }
   }
 }

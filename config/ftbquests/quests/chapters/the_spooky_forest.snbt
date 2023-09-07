@@ -3,12 +3,13 @@
 	group: "50E36C8A3680969A"
 	order_index: 0
 	filename: "the_spooky_forest"
-	title: "The Spooky Forest"
+	title: "The Spooki Forest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -1.5d
+			title: "The Spooki Forest"
+			x: -2.5d
 			y: 0.5d
 			description: ["Tired of the constant industry surrounding your base? Want to head to a large, and I DO mean large, forest with monsters, bosses, and loot as far as the eye can see? Then make a flower pool and jump in, I would take caution though, it's not easy being an unwanted guest."]
 			id: "784BC8ED19166AD7"
@@ -24,8 +25,11 @@
 			}]
 		}
 		{
+			title: "Portal to the Spooki Dimension"
 			x: -0.5d
 			y: 0.5d
+			description: ["Listen this is gonna sound crazy, but I need you to dig a 2x2x1 hole in your backyard, fill it with water. Then you need to plant flowers around it, including the corners, then throw an expensive piece of Jewlery into it. Give it a second. Then jump in, I don't know what that place is but it's not our regular world."]
+			dependencies: ["784BC8ED19166AD7"]
 			id: "474CE5CF02814EE0"
 			tasks: [
 				{
@@ -58,68 +62,335 @@
 					item: "minecraft:diamond"
 				}
 			]
+			rewards: [{
+				id: "1CB766FC0D533780"
+				type: "item"
+				item: "twilightforest:raven_feather"
+			}]
 		}
 		{
-			x: -0.5d
-			y: -1.0d
+			x: -5.0d
+			y: -2.0d
 			id: "23E80B77D90BF196"
-			tasks: [
+			tasks: [{
+				id: "46FB9DBDEBE4BB7B"
+				type: "kill"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2CD2BA990127764C"
+				type: "item"
+				item: "twilightforest:naga_scale"
+				count: 6
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: ["Meef Stroganoff doesn't stack, otherwise i'd just give a stack of five. But here's some more Meef Strokingoff"]
+			id: "101B39BD512F86B6"
+			tasks: [{
+				id: "7980FF3A1BC5FD90"
+				type: "kill"
+				entity: "twilightforest:minoshroom"
+				value: 1L
+			}]
+			rewards: [
 				{
-					id: "46FB9DBDEBE4BB7B"
-					type: "kill"
-					entity: "twilightforest:naga"
-					value: 1L
+					id: "79D7CD77836385FA"
+					type: "item"
+					item: "twilightforest:meef_stroganoff"
 				}
 				{
-					id: "1C6731439C76C51A"
-					type: "kill"
-					entity: "twilightforest:lich"
-					value: 1L
+					id: "1A452F04E56C1489"
+					type: "item"
+					item: "twilightforest:meef_stroganoff"
 				}
 				{
-					id: "449CFB29B2F675BC"
-					type: "kill"
-					entity: "twilightforest:ur_ghast"
-					value: 1L
+					id: "338F4B0DA21CB9CD"
+					type: "item"
+					item: "twilightforest:meef_stroganoff"
 				}
 				{
-					id: "1EA6ACD01CC8FD20"
-					type: "kill"
-					entity: "twilightforest:snow_queen"
-					value: 1L
+					id: "16194CF2B7502C9D"
+					type: "item"
+					item: "twilightforest:meef_stroganoff"
 				}
 				{
-					id: "187653F3F4C28C97"
-					type: "kill"
-					entity: "twilightforest:hydra"
-					value: 1L
+					id: "5901481B9856C9A7"
+					type: "item"
+					item: "twilightforest:meef_stroganoff"
 				}
 			]
 		}
 		{
-			x: 0.5d
-			y: -1.0d
-			id: "101B39BD512F86B6"
-			tasks: [
+			x: -6.5d
+			y: -3.5d
+			id: "2850EECF4A287054"
+			tasks: [{
+				id: "19DF3116985DA9C3"
+				type: "kill"
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+			rewards: [{
+				id: "20733314AE265762"
+				type: "item"
+				item: "minecraft:bone"
+				count: 32
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			id: "711A78A6B3AC6370"
+			tasks: [{
+				id: "1E6FDF107AF02909"
+				type: "kill"
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2B59C6F978B035C8"
+				type: "item"
+				item: "twilightforest:fiery_tears"
+				count: 6
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			id: "31D44A06B362FE3B"
+			tasks: [{
+				id: "5A8824352E83D396"
+				type: "kill"
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+			rewards: [{
+				id: "11024FEDC73154CF"
+				type: "item"
+				item: {
+					id: "minecraft:tipped_arrow"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:harming"
+					}
+				}
+				count: 48
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			id: "5A607B71A5B8C4FA"
+			tasks: [{
+				id: "5CE684624DD9AE77"
+				type: "kill"
+				entity: "twilightforest:hydra"
+				value: 1L
+			}]
+			rewards: [
 				{
-					id: "7980FF3A1BC5FD90"
-					type: "kill"
-					entity: "twilightforest:minoshroom"
-					value: 1L
+					id: "65A80FA4F5AAF970"
+					type: "item"
+					item: "twilightforest:fiery_blood"
+					count: 12
 				}
 				{
-					id: "33E6F9ABB37335F3"
-					type: "kill"
-					entity: "twilightforest:knight_phantom"
-					value: 1L
-				}
-				{
-					id: "30CE9ECD798EFF2A"
-					type: "kill"
-					entity: "twilightforest:alpha_yeti"
-					value: 1L
+					id: "385C77DBD600E017"
+					type: "item"
+					item: "twilightforest:hydra_chop"
+					count: 8
 				}
 			]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			id: "05AAA42219649745"
+			tasks: [{
+				id: "6206F68F395EE019"
+				type: "kill"
+				entity: "twilightforest:alpha_yeti"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "66E1FF081251B239"
+					type: "item"
+					item: "twilightforest:ice_bomb"
+					count: 6
+				}
+				{
+					id: "3EFA902C005B1125"
+					type: "item"
+					item: "twilightforest:alpha_yeti_fur"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			id: "530A1CE5B81BB860"
+			tasks: [{
+				id: "53D1A40F8DDED40B"
+				type: "kill"
+				entity: "twilightforest:knight_phantom"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3B5D6BB45401F98F"
+				type: "item"
+				item: "twilightforest:knightmetal_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			can_repeat: true
+			id: "51EB080F338EBF56"
+			tasks: [{
+				id: "765EDDBF30AC9407"
+				type: "kill"
+				entity: "twilightforest:minotaur"
+				value: 5L
+			}]
+			rewards: [{
+				id: "4C12446F7108A27F"
+				type: "item"
+				item: "twilightforest:cooked_meef"
+				count: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			id: "2D4617046F676980"
+			tasks: [{
+				id: "10EE55B45AA1A61A"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			id: "27B0368D9500C052"
+			tasks: [{
+				id: "4F3408F88F21491D"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			id: "7B3DA0E801A66B30"
+			tasks: [{
+				id: "0BA3F57739E0ADED"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			id: "2B5A3114B5312D91"
+			tasks: [{
+				id: "18FE455E02D73A91"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			id: "7CB72F7272FD5C08"
+			tasks: [{
+				id: "2E41BDA84F442367"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			id: "519B6FEDC614AD36"
+			tasks: [{
+				id: "686BD1299210F92C"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			id: "12025E60525CAB63"
+			tasks: [{
+				id: "4D4B07B69AD0C6D6"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			id: "1FEDD437572FA766"
+			tasks: [{
+				id: "36CA5EB5F9A0304E"
+				type: "item"
+				item: "twilightforest:fiery_block"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			id: "58E601B454F9AB77"
+			tasks: [{
+				id: "1B15D7C19B35EE34"
+				type: "checkmark"
+				title: "Congrats, you did the thing"
+			}]
 		}
 	]
 	quest_links: [ ]

@@ -6,6 +6,181 @@
 	title: "Tweaker's Construct"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "70AC5CFA3D175277"
+			tasks: [
+				{
+					id: "001A378A3F1B4109"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "35A2E44DAA28D821"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "7F6E067F3505FF6D"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "7A2F3A08579E1D9E"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "334252F5FE8F146E"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 3L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "135B25F19D79243F"
+			tasks: [{
+				id: "6B1C0B3AB93292AE"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "68B374C6498B5B9D"
+			tasks: [{
+				id: "757B0472FA142DE4"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "2299240C7321125D"
+			tasks: [{
+				id: "2C2D320CDA56A9F5"
+				type: "item"
+				item: "thermal:bronze_ingot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			id: "132779BF1F086073"
+			tasks: [{
+				id: "05B6D06B43678F40"
+				type: "item"
+				item: "tconstruct:puny_smelting"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			id: "07C806976654DA83"
+			tasks: [{
+				id: "075990CF89A3F842"
+				type: "item"
+				item: "tconstruct:mighty_smelting"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "0B35DE658468D944"
+			tasks: [{
+				id: "2665B60C5BA33CA9"
+				type: "item"
+				item: "tconstruct:tinkers_gadgetry"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			id: "18430AFA8440817E"
+			tasks: [{
+				id: "64EDC29B6623111A"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			id: "49CDE20F4BF92FF0"
+			tasks: [{
+				id: "687E09AD902905FF"
+				type: "item"
+				item: "tconstruct:fantastic_foundry"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "5BB264C1D3F2325D"
+			tasks: [{
+				id: "4C75B92EA8BDFB07"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			id: "4654D8351C1C7F02"
+			tasks: [
+				{
+					id: "717691AAAEAE3DA2"
+					type: "item"
+					title: "Any #tconstruct:tables"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:tables"
+						}
+					}
+				}
+				{
+					id: "227C0F4A0DEB93B1"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "4786F71A29179CAD"
+					type: "item"
+					title: "Any #tconstruct:tables"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:tables"
+						}
+					}
+				}
+				{
+					id: "078A32122DE5FAD8"
+					type: "item"
+					item: "tconstruct:pattern"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "6FC77F324E787BA0"
+			tasks: [{
+				id: "676A9528DBBA282E"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+		}
+	]
 	quest_links: [ ]
 }
