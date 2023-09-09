@@ -71,12 +71,24 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "beef": "2023-09-08 17:50:30 -0400"
+    },
+    "done": false
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:river": "2023-09-07 17:02:32 -0400",
       "minecraft:desert": "2023-09-07 16:46:43 -0400"
     },
     "done": false
+  },
+  "byg:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-09-08 17:50:30 -0400"
+    },
+    "done": true
   },
   "create:root": {
     "criteria": {
@@ -87,6 +99,12 @@
   "psi:main/psimetal_pickup": {
     "criteria": {
       "flower": "2023-09-07 16:35:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-09-08 17:50:30 -0400"
     },
     "done": true
   },

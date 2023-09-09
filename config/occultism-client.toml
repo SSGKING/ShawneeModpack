@@ -2,7 +2,7 @@
 #Visual Settings
 [visual]
 	#Shows all tags an item has in the tooltip on hover if advanced tooltips (F3+H) are enabled.
-	showItemTagsInTooltip = true
+	showItemTagsInTooltip = false
 	#Disables the headache- and possibly seizure-inducing visual effects of Demon's Dream.
 	disableDemonsDreamShaders = false
 	#Disables holiday themed visual content such as familiar skins.

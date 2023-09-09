@@ -51,6 +51,7 @@
 #F9CCC4 byg:jacaranda_leaves
 #E0BE8B quark:jasper
 #1947A5 byg:joshua_leaves
+#C1E251 minecraft:jungle_leaves
 #83CED3 minecraft:lava
 #6BCAC8 thermal:lead_ore
 #09BF7C alexsmobs:leafcutter_ant_chamber
@@ -103,6 +104,7 @@
 #2035B7 minecraft:tube_coral_block
 #87BAF4 minecraft:tuff
 #2A5C1F twilightforest:twilight_oak_chest
+#88779D minecraft:vine
 #B925E2 waystones:warp_plate
 #1C0619 waystones:waystone
 #973DEA byg:white_sand
