@@ -30,6 +30,13 @@
     },
     "done": false
   },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everbright": "2023-09-09 15:17:57 -0400",
+      "enter_everdawn": "2023-09-09 15:19:43 -0400"
+    },
+    "done": true
+  },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "wheat": "2023-09-06 21:16:14 -0400"
@@ -57,6 +64,12 @@
   "naturescompass:natures_compass": {
     "criteria": {
       "has_recipe": "2023-09-06 20:42:53 -0400"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/enter_undergarden": {
+    "criteria": {
+      "enter_undergarden": "2023-09-09 14:51:15 -0400"
     },
     "done": true
   },
@@ -115,6 +128,18 @@
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:warm_ocean": "2023-09-09 15:14:31 -0400"
+    },
+    "done": false
+  },
+  "blue_skies:enter_blinding_dungeon": {
+    "criteria": {
+      "entered_everdawn_blinding_dungeon": "2023-09-09 15:44:32 -0400"
+    },
+    "done": true
+  },
   "twilightforest:progress_labyrinth": {
     "criteria": {
       "kill_lich": "2023-09-06 21:59:00 -0400"
@@ -145,6 +170,12 @@
     },
     "done": true
   },
+  "undergarden:undergarden/catalyst": {
+    "criteria": {
+      "has_catalyst": "2023-09-09 14:50:38 -0400"
+    },
+    "done": true
+  },
   "undergarden:undergarden/root": {
     "criteria": {
       "tick": "2023-09-06 20:42:53 -0400"
@@ -160,6 +191,12 @@
   "twilightforest:alt/treasures/fiery_armor_set": {
     "criteria": {
       "has_tears": "2023-09-06 22:18:31 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/enter": {
+    "criteria": {
+      "enter_everbright": "2023-09-09 15:17:57 -0400"
     },
     "done": true
   },
@@ -248,6 +285,12 @@
     },
     "done": true
   },
+  "blue_skies:everdawn/enter": {
+    "criteria": {
+      "enter_everdawn": "2023-09-09 15:19:43 -0400"
+    },
+    "done": true
+  },
   "psi:main/iron_cad_pickup": {
     "criteria": {
       "flower": "2023-09-06 20:42:53 -0400"
@@ -269,6 +312,12 @@
   "psi:main/ivory_pickup": {
     "criteria": {
       "flower": "2023-09-06 20:42:53 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:root": {
+    "criteria": {
+      "enter_everbright": "2023-09-09 15:17:57 -0400"
     },
     "done": true
   },
@@ -302,6 +351,13 @@
       "hurt": "2023-09-06 22:16:51 -0400"
     },
     "done": true
+  },
+  "undergarden:undergarden/all_undergarden_biomes": {
+    "criteria": {
+      "undergarden:smogstem_forest": "2023-09-09 14:51:16 -0400",
+      "undergarden:forgotten_field": "2023-09-09 14:53:52 -0400"
+    },
+    "done": false
   },
   "twilightforest:alt/treasures/naga_armor_set": {
     "criteria": {

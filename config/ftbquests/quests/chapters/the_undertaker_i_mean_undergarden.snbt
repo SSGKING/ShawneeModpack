@@ -6,22 +6,52 @@
 	title: "The UnderTaker, I mean Undergarden"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -0.5d
-		y: -0.5d
-		description: ["Oi! Do you like being in caves? How about killing the indiginous creatures that live there for the precious metals and gems that lay around 'em? No? Oh ye do it for fun! PERFECT! Join me in the UnderGarden then, we have lots of Materials, Monsters, and Magnificent Biomes! Just watch yer head."]
-		id: "1ACAD18D07B757AA"
-		tasks: [{
-			id: "33CD3A57492639D7"
-			type: "checkmark"
-			title: "The UnderTaker, I mean UnderGarden"
-		}]
-		rewards: [{
-			id: "194FE31C29BE827A"
-			type: "item"
-			item: "minecraft:deepslate_bricks"
-			count: 12
-		}]
-	}]
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			description: ["Oi! Do you like being in caves? How about killing the indiginous creatures that live there for the precious metals and gems that lay around 'em? No? Oh ye do it for fun! PERFECT! Join me in the UnderGarden then, we have lots of Materials, Monsters, and Magnificent Biomes! Just watch yer head."]
+			id: "1ACAD18D07B757AA"
+			tasks: [{
+				id: "33CD3A57492639D7"
+				type: "checkmark"
+				title: "The UnderTaker, I mean UnderGarden"
+			}]
+			rewards: [{
+				id: "194FE31C29BE827A"
+				type: "item"
+				item: "minecraft:deepslate_bricks"
+				count: 12
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			id: "101746E1CD16DD31"
+			tasks: [
+				{
+					id: "0E90D59855718A0E"
+					type: "item"
+					item: "undergarden:catalyst"
+				}
+				{
+					id: "03F33A2BB63AE6D4"
+					type: "item"
+					item: "minecraft:deepslate_bricks"
+					count: 12L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			id: "4C91A00EB2844999"
+			tasks: [{
+				id: "733A66D336CB970A"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+		}
+	]
 	quest_links: [ ]
 }
