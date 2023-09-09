@@ -10,7 +10,6 @@
 		{
 			x: -0.5d
 			y: 0.0d
-			dependencies: ["25B3B5569CCCE61C"]
 			id: "307F9B684DD49D4D"
 			tasks: [{
 				id: "6EB434D11049494C"
@@ -104,23 +103,6 @@
 				type: "item"
 				item: "meetyourfight:mossy_tooth"
 				count: 5
-			}]
-		}
-		{
-			x: -2.0d
-			y: 0.0d
-			description: [" Look all i'm saying is it'll be a fun prank, I run up ring the bell and run away, i'm sure he'll be fine. "]
-			id: "25B3B5569CCCE61C"
-			tasks: [{
-				id: "1E5201F8B022188D"
-				type: "checkmark"
-				title: "I ain't hear no bell."
-			}]
-			rewards: [{
-				id: "25DEE4127050EDC1"
-				type: "item"
-				item: "minecraft:soul_sand"
-				count: 2
 			}]
 		}
 	]
