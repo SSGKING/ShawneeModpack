@@ -1,4 +1,10 @@
 {
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2023-09-10 20:47:27 -0400"
+    },
+    "done": false
+  },
   "farmersdelight:main/root": {
     "criteria": {
       "seeds": "2023-09-07 16:35:46 -0400"
@@ -37,7 +43,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:creeper": "2023-09-07 17:02:38 -0400"
+      "minecraft:pillager": "2023-09-10 21:56:27 -0400",
+      "minecraft:skeleton": "2023-09-10 21:21:54 -0400",
+      "minecraft:spider": "2023-09-10 21:22:33 -0400",
+      "minecraft:creeper": "2023-09-07 17:02:38 -0400",
+      "minecraft:zombie": "2023-09-10 21:35:57 -0400"
     },
     "done": false
   },
@@ -80,13 +90,21 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:river": "2023-09-07 17:02:32 -0400",
-      "minecraft:desert": "2023-09-07 16:46:43 -0400"
+      "minecraft:desert": "2023-09-07 16:46:43 -0400",
+      "minecraft:savanna": "2023-09-10 21:26:31 -0400",
+      "minecraft:plains": "2023-09-10 21:25:46 -0400"
     },
     "done": false
   },
   "byg:husbandry/root": {
     "criteria": {
       "consumed_item": "2023-09-08 17:50:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-09-10 21:56:30 -0400"
     },
     "done": true
   },
@@ -165,6 +183,12 @@
   "occultism:occultism/root": {
     "criteria": {
       "occultism_present": "2023-09-07 16:35:46 -0400"
+    },
+    "done": true
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2023-09-10 20:47:27 -0400"
     },
     "done": true
   },

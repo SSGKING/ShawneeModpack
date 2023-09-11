@@ -135,6 +135,28 @@
 				item: "tropicraft:fishing_net"
 			}]
 		}
+		{
+			title: "Frog legs, a delicacy, somewhere"
+			x: 2.0d
+			y: -2.0d
+			id: "4B8BF8900C16FC7F"
+			tasks: [{
+				id: "778A2060012DB1E5"
+				type: "item"
+				item: "tropicraft:frog_leg"
+			}]
+		}
+		{
+			title: "Fresh Fish, Fish Good"
+			x: 3.0d
+			y: -2.0d
+			id: "2BAD03DEE7EFF8B1"
+			tasks: [{
+				id: "4AF9FC0337B0A628"
+				type: "item"
+				item: "tropicraft:fresh_marlin"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

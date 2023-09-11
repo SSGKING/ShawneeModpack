@@ -1,4 +1,1 @@
 minecraft:overworld
-undergarden:undergarden
-blue_skies:everbright
-blue_skies:everdawn

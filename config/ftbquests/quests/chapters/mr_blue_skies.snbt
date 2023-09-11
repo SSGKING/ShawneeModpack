@@ -6,92 +6,22 @@
 	title: "Mr. Blue Skies"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [
-		{
-			x: 0.0d
-			y: 0.0d
-			description: ["Do you like constant light? How about constant dark? Yes? No? Well if you want to battle in dungeons and witness quite beautiful nature, head over to a village and ask for a gatekeeper. You'll need some books though, lucky for you I carry multiple on me at all times. And no my back doesn't hurt, i'm not salty, you're salty!"]
-			id: "5D0F1AE855E47CCF"
-			tasks: [{
-				id: "587BDDB9BF5CDFCB"
-				type: "checkmark"
-				title: "Mr. Blue Skies"
-			}]
-			rewards: [{
-				id: "6745EB81D5C2CDEF"
-				type: "item"
-				item: "minecraft:book"
-				count: 5
-			}]
-		}
-		{
-			x: 2.0d
-			y: 0.0d
-			id: "64BDD8D564700C8A"
-			tasks: [{
-				id: "693E827795F3BE06"
-				type: "item"
-				item: "blue_skies:blue_journal"
-			}]
-			rewards: [{
-				id: "7DE5606D92F2F793"
-				type: "item"
-				item: "blue_skies:turquoise_stonebrick"
-				count: 12
-			}]
-		}
-		{
-			x: 4.0d
-			y: 0.0d
-			id: "3BFE1FCB34266AC2"
-			tasks: [{
-				id: "4607CBCE455DEF46"
-				type: "item"
-				item: {
-					id: "blue_skies:zeal_lighter"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "70E6A7487909825B"
-				type: "item"
-				item: "blue_skies:lunar_stonebrick"
-				count: 12
-			}]
-		}
-		{
-			x: 5.5d
-			y: -1.5d
-			id: "0197FAD6ACB57A01"
-			tasks: [{
-				id: "4715EEBD0C752418"
-				type: "dimension"
-				dimension: "blue_skies:everbright"
-			}]
-		}
-		{
-			x: 5.5d
-			y: 1.5d
-			id: "12A4A3A4FA3B5E50"
-			tasks: [{
-				id: "71CC04F8402775A5"
-				type: "dimension"
-				dimension: "blue_skies:everdawn"
-			}]
-		}
-		{
-			x: 7.0d
-			y: 0.0d
-			id: "49EA7013DAAC7C47"
-			tasks: [{
-				id: "139DB4593392FA11"
-				type: "checkmark"
-				title: "Towerkeys"
-			}]
-		}
-	]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		description: ["Do you like constant light? How about constant dark? Yes? No? Well if you want to battle in dungeons and witness quite beautiful nature, head over to a village and ask for a gatekeeper. You'll need some books though, lucky for you I carry multiple on me at all times. And no my back doesn't hurt, i'm not salty, you're salty!"]
+		id: "5D0F1AE855E47CCF"
+		tasks: [{
+			id: "587BDDB9BF5CDFCB"
+			type: "checkmark"
+			title: "Mr. Blue Skies"
+		}]
+		rewards: [{
+			id: "6745EB81D5C2CDEF"
+			type: "item"
+			item: "minecraft:book"
+			count: 5
+		}]
+	}]
 	quest_links: [ ]
 }

@@ -4,7 +4,7 @@
 	god: false
 	nick: ""
 	name: "StarmasterK13"
-	last_seen: { dim: "minecraft:overworld", x: 40, y: 70, z: -52, time: 1694220544172L, xRot: 34.6502f, yRot: 4.054016f }
+	last_seen: { dim: "minecraft:overworld", x: 41, y: 64, z: -43, time: 1694398355132L, xRot: 8.100753f, yRot: 46.19763f }
 	recording: 0
 	teleport_history: [
 		{ dim: "minecraft:overworld", x: 19, y: 72, z: -7, time: 1694119571856L, xRot: 15.266335f, yRot: 33.450012f }
