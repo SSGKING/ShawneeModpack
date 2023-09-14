@@ -1,0 +1,11 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "ZergPsychotic"
+	last_seen: { dim: "tropicraft:tropics", x: 17, y: 149, z: 496, time: 1693606351195L, xRot: 22.649971f, yRot: 49.37378f }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}

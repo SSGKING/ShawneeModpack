@@ -1,0 +1,4 @@
+#504 byg:dead_sea
+#008 minecraft:desert
+#5FF minecraft:river
+#2B7 minecraft:warm_ocean

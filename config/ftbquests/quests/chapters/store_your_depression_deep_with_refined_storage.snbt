@@ -6,6 +6,201 @@
 	title: "Store your depression deep, with refined storage"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -1.0d
+			y: -3.0d
+			description: ["This area is going to have a brief overview of refined storage, doing the quest line will get you set up with a basic system"]
+			id: "26002CC0D6CFCB0A"
+			tasks: [{
+				id: "3425F46872FC638E"
+				type: "checkmark"
+				title: "Who needs chests?"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			description: ["Get power, ikc how but you'll need it"]
+			id: "3EC95FE777793948"
+			tasks: [{
+				id: "25115D317ADBDB72"
+				type: "checkmark"
+				title: "POWER"
+			}]
+		}
+		{
+			title: "Basic materials"
+			x: -1.0d
+			y: -1.5d
+			description: ["These are the basic materials that you will need to start your setup"]
+			dependencies: [
+				"26002CC0D6CFCB0A"
+				"3EC95FE777793948"
+			]
+			id: "3F39F412AB98F23B"
+			tasks: [
+				{
+					id: "3C8A6E402CE6B5A6"
+					type: "item"
+					item: "refinedstorage:silicon"
+				}
+				{
+					id: "25560480FF40066B"
+					type: "item"
+					item: "refinedstorage:quartz_enriched_iron"
+				}
+			]
+			rewards: [{
+				id: "41255B28BBDB2B7B"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+		}
+		{
+			title: "Mad Catz level controller"
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["1729310BC5664CDF"]
+			id: "1697FB643A0139B2"
+			tasks: [{
+				id: "3DA9D9617568958D"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			title: "PROCESSING.... PROCESSING"
+			x: -1.0d
+			y: 0.0d
+			description: ["You are going to need these for crafting at some point, making a good amount now won't hurt"]
+			dependencies: ["3F39F412AB98F23B"]
+			id: "1729310BC5664CDF"
+			tasks: [
+				{
+					id: "3345777EC54E51ED"
+					type: "item"
+					item: "refinedstorage:processor_binding"
+				}
+				{
+					id: "6F1A1470D3399351"
+					type: "item"
+					item: "refinedstorage:basic_processor"
+				}
+				{
+					id: "24DFA12062CFC33D"
+					type: "item"
+					item: "refinedstorage:improved_processor"
+				}
+				{
+					id: "21B7B3A6FA892EFB"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+				}
+			]
+		}
+		{
+			title: "Don't copy that floppy"
+			x: -1.0d
+			y: 3.0d
+			description: ["Here's the drive the stuff where things are stored"]
+			dependencies: ["1697FB643A0139B2"]
+			id: "28F415AA88962A2A"
+			tasks: [{
+				id: "3DFDC7439491D756"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [{
+				id: "0347F8A28D8A23D9"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			description: ["There's no need to get a normal grid, just make the crafting one, it makes shit easier"]
+			dependencies: ["28F415AA88962A2A"]
+			id: "34394A269FA2B3CC"
+			tasks: [{
+				id: "70B5D16553073110"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "2C55B04E744B4C24"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			dependencies: ["34394A269FA2B3CC"]
+			id: "3BEEC6678573DF74"
+			tasks: [{
+				id: "255F7D563E99B4A5"
+				type: "checkmark"
+				title: "At this point if you have power you can now start using refined storage"
+			}]
+		}
+		{
+			title: "Taking the crafting out of minecraft"
+			x: -3.5d
+			y: 6.0d
+			description: ["Auto crafting can be pretty tricky to set up, and things will require some expirementation. The big thing is using the pattern grid to create recipes and putting the crafter next to a valid block (no need for standard crafting) and watch the magic happen"]
+			dependencies: ["3BEEC6678573DF74"]
+			id: "481680276EE424F3"
+			tasks: [
+				{
+					id: "27F13524465DF3A9"
+					type: "item"
+					item: "refinedstorage:crafter"
+				}
+				{
+					id: "17257844109D7686"
+					type: "item"
+					item: "refinedstorage:crafting_monitor"
+				}
+				{
+					id: "4971240BE0F83EBF"
+					type: "item"
+					item: "refinedstorage:pattern_grid"
+				}
+				{
+					id: "6C479C1D78D72AEB"
+					type: "item"
+					item: "refinedstorage:pattern"
+				}
+			]
+			rewards: [{
+				id: "648894B143C5C919"
+				type: "item"
+				item: "refinedstorage:pattern"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			subtitle: "Opens wireless grid. Wires inside..."
+			description: ["This allows for wireless acess to your system, use upgrades to extend range"]
+			dependencies: ["3BEEC6678573DF74"]
+			id: "635ABD7B75335A6A"
+			tasks: [
+				{
+					id: "18118317263AC198"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+				{
+					id: "0919364C34CB9E95"
+					type: "item"
+					item: "refinedstorage:wireless_grid"
+				}
+			]
+		}
+	]
 	quest_links: [ ]
 }
