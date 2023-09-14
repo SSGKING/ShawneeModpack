@@ -6,6 +6,238 @@
 	title: "Pressure per Square Inch, PSI"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Pressure per Square Inch, PSI"
+			x: -2.5d
+			y: 0.5d
+			id: "013BDEDDFE5DB7B5"
+			tasks: [{
+				id: "4FFC49FC4FEEAF3C"
+				type: "checkmark"
+				title: "PSI"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "42FB799AEBDA0F13"
+			tasks: [{
+				id: "58FD8BFBC0C50115"
+				type: "item"
+				item: "psi:cad_assembler"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			id: "7041EAFA3C072EF9"
+			tasks: [{
+				id: "46277FD0F019D4EA"
+				type: "item"
+				item: "psi:programmer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "7521362DE5CE2753"
+			tasks: [{
+				id: "662482ABC82AF528"
+				type: "item"
+				item: "psi:cad_assembly_iron"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			id: "422DE34C3B7CF9E7"
+			tasks: [{
+				id: "2A733FB2194FBC39"
+				type: "item"
+				item: "psi:cad_core_basic"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			id: "204F8BB20805530F"
+			tasks: [{
+				id: "18B8C9DBDDCA8874"
+				type: "item"
+				item: "psi:cad_socket_basic"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			id: "3BFA787148FE9E0E"
+			tasks: [{
+				id: "269390E2263D1364"
+				type: "item"
+				item: "psi:cad_battery_basic"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			id: "31E3D9FDC18072C2"
+			tasks: [{
+				id: "0FA7D64D68C553EA"
+				type: "item"
+				item: "psi:cad_colorizer_white"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "1D31393511B99A44"
+			tasks: [{
+				id: "3B1F66C933D233A5"
+				type: "item"
+				item: "psi:psidust"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			id: "605AE509438E089C"
+			tasks: [
+				{
+					id: "4EEC40DB37167869"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D4A519E071C780B"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5954520352B4CFC5"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2AF5C3663CE4CCDF"
+					type: "item"
+					item: {
+						id: "psi:psimetal_exosuit_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2EE1C6D391A8FBD0"
+					type: "item"
+					item: "psi:exosuit_controller"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			id: "1F628DC386B9A241"
+			tasks: [{
+				id: "79A5DAB8E8D3EF6A"
+				type: "item"
+				item: "psi:exosuit_sensor_light"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "42495DBDEE13158B"
+			tasks: [{
+				id: "6995E600CD00CD79"
+				type: "item"
+				item: {
+					id: "psi:spell_bullet_projectile"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			id: "3D79392457A15203"
+			tasks: [{
+				id: "4D20D8E924BCFB1D"
+				type: "checkmark"
+				title: "selector"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			id: "7CF85224E5B709F0"
+			tasks: [{
+				id: "3C37EC72854FC585"
+				type: "checkmark"
+				title: "constant"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			id: "648F9C34017F5ACA"
+			tasks: [{
+				id: "2D79A2D09A4640A2"
+				type: "checkmark"
+				title: "trick"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			id: "06AC9CEEF34ADC75"
+			tasks: [{
+				id: "5A1E34A6A15331C2"
+				type: "checkmark"
+				title: "connector"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			id: "47F3AC1FC360214D"
+			tasks: [{
+				id: "0416500174756C53"
+				type: "checkmark"
+				title: "vector"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			id: "7DB655796EB34E74"
+			tasks: [{
+				id: "7C4585D3CEA3809A"
+				type: "checkmark"
+				title: "Complexity"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

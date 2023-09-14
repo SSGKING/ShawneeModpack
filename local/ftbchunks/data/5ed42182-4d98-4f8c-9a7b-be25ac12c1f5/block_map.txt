@@ -1,4 +1,11 @@
+#DDFE01 minecraft:acacia_fence
+#BC984F minecraft:acacia_fence_gate
 #942E52 minecraft:acacia_leaves
+#A78454 minecraft:acacia_log
+#CA1807 minecraft:acacia_planks
+#C722B0 minecraft:acacia_slab
+#594C00 minecraft:acacia_stairs
+#C90123 minecraft:acacia_wood
 #FBEB73 minecraft:allium
 #BA6A6C byg:aloe_vera
 #FA75A8 minecraft:andesite
@@ -9,6 +16,7 @@
 #161AE7 minecraft:bamboo
 #16A5F6 byg:barrel_cactus
 #490837 minecraft:beacon
+#7F50F6 minecraft:bell
 #173B65 minecraft:big_dripleaf
 #6BD369 minecraft:big_dripleaf_stem
 #7F5002 quark:black_corundum_cluster
@@ -17,8 +25,10 @@
 #62D059 byg:blue_sand
 #8AE729 minecraft:brain_coral_block
 #642081 minecraft:brown_terracotta
+#F82DAB minecraft:brown_wall_banner
 #BA9FBF minecraft:bubble_coral_block
 #C6AC20 minecraft:cactus
+#D01DA1 psi:cad_assembler
 #00BE18 minecraft:calcite
 #F3C652 pneumaticcraft:charging_station
 #F522F4 minecraft:chest
@@ -26,6 +36,10 @@
 #7FDE54 minecraft:clay
 #DE242D minecraft:coal_ore
 #FE4F0A minecraft:coarse_dirt
+#E2D601 minecraft:composter
+#3799E2 pneumaticcraft:compressed_brick_slab
+#2518F2 pneumaticcraft:compressed_brick_stairs
+#8F803E pneumaticcraft:compressed_stone_slab
 #6E76AF minecraft:copper_ore
 #CC07F6 minecraft:cornflower
 #C1E028 byg:cracked_red_sand
@@ -68,6 +82,7 @@
 #C06E91 byg:indigo_jacaranda_leaves
 #D7EADE minecraft:iron_ore
 #F9CCC4 byg:jacaranda_leaves
+#E4F43C byg:jacaranda_log
 #E0BE8B quark:jasper
 #1947A5 byg:joshua_leaves
 #C1E251 minecraft:jungle_leaves
@@ -110,6 +125,7 @@
 #44E938 minecraft:polished_andesite_stairs
 #AFAC0D minecraft:poppy
 #C4E3C7 waystones:portstone
+#266ED0 psi:programmer
 #E6B35B minecraft:pumpkin
 #B54637 byg:purple_sand
 #F7D0AE byg:purple_sandstone
@@ -118,6 +134,7 @@
 #81AF65 minecraft:red_sand
 #841826 minecraft:red_sandstone
 #4A5246 minecraft:red_terracotta
+#69E799 farmersdelight:rich_soil_farmland
 #6BD712 byg:ripe_joshua_leaves
 #EC112A byg:rocky_stone
 #BDEA7C croptopia:salt_ore

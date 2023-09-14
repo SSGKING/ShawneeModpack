@@ -10,6 +10,7 @@
 #637 byg:firecracker_shrubland
 #4B0 minecraft:jungle
 #79A minecraft:lukewarm_ocean
+#7BC byg:lush_stacks
 #07C byg:mojave_desert
 #3DC minecraft:plains
 #4AA byg:rainbow_beach

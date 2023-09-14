@@ -1,40 +1,35 @@
-[22:33:14.545][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:vanilla
-[22:33:14.611][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:forge
-[22:33:15.097][INFO]: Successfully identified and loaded plugin contenttweaker:core
-[22:33:15.104][INFO]: Successfully identified and loaded plugin botania:default
-[22:33:15.110][INFO]: Successfully identified and loaded plugin jeitweaker:default
-[22:33:15.209][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[22:33:15.215][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[22:33:18.127][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[22:33:18.130][INFO]: - 'aquaculture' at version '1.18.2-2.3.12'
-[22:33:18.130][INFO]: - 'botania' at version '1.18.2-435'
-[22:33:18.130][INFO]: - 'contenttweaker' at version '1.0.0+13'
-[22:33:18.130][INFO]: - 'crafttweaker' at version '9.1.209'
-[22:33:18.130][INFO]: - 'farmersdelight' at version '1.18.2-1.2.3'
-[22:33:18.130][INFO]: - 'jeitweaker' at version '3.0.0.9'
-[22:33:18.130][INFO]: - 'pneumaticcraft' at version '1.18.2-3.6.1-29'
-[22:33:18.130][INFO]: - 'thermal' at version '9.2.0.46'
-[22:33:18.130][INFO]: - 'thermal_foundation' at version '9.2.0.46'
-[22:33:18.831][INFO]: Started loading scripts for loader 'contenttweaker'
-[22:33:19.224][INFO]: Compiling and executing scripts
-[22:33:19.369][INFO]: Successfully initialized modules [crafttweaker, contenttweaker, expansions]
-[22:33:19.580][INFO]: Execution for loader 'contenttweaker' completed successfully
-[22:33:29.324][INFO]: Started loading scripts for loader 'initialize'
-[22:33:29.389][INFO]: Compiling and executing scripts
-[22:33:29.399][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[22:33:29.409][INFO]: Execution for loader 'initialize' completed successfully
-[22:34:23.843][WARN]: Two subcommands with the same ID soundevents found for dump: this it not a critical error
-[22:34:23.843][WARN]: Two subcommands with the same ID materials found for dump: this it not a critical error
-[22:34:27.285][INFO]: Started loading scripts for loader 'tags'
-[22:34:27.296][INFO]: Compiling and executing scripts
-[22:34:27.303][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[22:34:27.307][INFO]: Execution for loader 'tags' completed successfully
-[22:34:31.013][INFO]: Started loading scripts for loader 'crafttweaker'
-[22:34:31.024][INFO]: Compiling and executing scripts
-[22:34:31.183][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[22:34:31.189][INFO]: Execution for loader 'crafttweaker' completed successfully
-[23:27:31.728][INFO]: Started loading scripts for loader 'tags'
-[23:27:31.728][INFO]: Undoing previous actions
-[23:27:31.737][INFO]: Compiling and executing scripts
-[23:27:31.739][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[23:27:31.743][INFO]: Execution for loader 'tags' completed successfully
+[15:55:57.610][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:vanilla
+[15:55:57.618][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:forge
+[15:55:57.963][INFO]: Successfully identified and loaded plugin contenttweaker:core
+[15:55:57.968][INFO]: Successfully identified and loaded plugin botania:default
+[15:55:57.971][INFO]: Successfully identified and loaded plugin jeitweaker:default
+[15:55:57.993][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[15:55:57.996][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[15:56:01.172][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[15:56:01.173][INFO]: - 'aquaculture' at version '1.18.2-2.3.12'
+[15:56:01.173][INFO]: - 'botania' at version '1.18.2-435'
+[15:56:01.173][INFO]: - 'contenttweaker' at version '1.0.0+13'
+[15:56:01.173][INFO]: - 'crafttweaker' at version '9.1.209'
+[15:56:01.173][INFO]: - 'farmersdelight' at version '1.18.2-1.2.3'
+[15:56:01.173][INFO]: - 'jeitweaker' at version '3.0.0.9'
+[15:56:01.173][INFO]: - 'pneumaticcraft' at version '1.18.2-3.6.1-29'
+[15:56:01.173][INFO]: - 'thermal' at version '9.2.0.46'
+[15:56:01.173][INFO]: - 'thermal_foundation' at version '9.2.0.46'
+[15:56:02.124][INFO]: Started loading scripts for loader 'contenttweaker'
+[15:56:02.769][INFO]: Compiling and executing scripts
+[15:56:03.015][INFO]: Successfully initialized modules [crafttweaker, contenttweaker, expansions]
+[15:56:03.367][INFO]: Execution for loader 'contenttweaker' completed successfully
+[15:56:14.631][INFO]: Started loading scripts for loader 'initialize'
+[15:56:14.649][INFO]: Compiling and executing scripts
+[15:56:14.650][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[15:56:14.656][INFO]: Execution for loader 'initialize' completed successfully
+[16:02:06.342][WARN]: Two subcommands with the same ID soundevents found for dump: this it not a critical error
+[16:02:06.343][WARN]: Two subcommands with the same ID materials found for dump: this it not a critical error
+[16:02:10.606][INFO]: Started loading scripts for loader 'tags'
+[16:02:10.620][INFO]: Compiling and executing scripts
+[16:02:10.626][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[16:02:10.632][INFO]: Execution for loader 'tags' completed successfully
+[16:02:14.626][INFO]: Started loading scripts for loader 'crafttweaker'
+[16:02:14.637][INFO]: Compiling and executing scripts
+[16:02:14.843][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[16:02:14.849][INFO]: Execution for loader 'crafttweaker' completed successfully

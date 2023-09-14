@@ -4,7 +4,7 @@
 	god: false
 	nick: ""
 	name: "ZergPsychotic"
-	last_seen: { dim: "minecraft:overworld", x: 40, y: 70, z: -52, time: 1694221634376L, xRot: 43.350193f, yRot: -30.745989f }
+	last_seen: { dim: "minecraft:overworld", x: 22, y: 469, z: -14, time: 1694723598955L, xRot: -90.0f, yRot: 85.199974f }
 	recording: 0
 	teleport_history: [ ]
 	homes: { }
