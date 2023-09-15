@@ -6,6 +6,280 @@
 	title: "Yu-Gi-Oh!"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Yu-Gi-Oh!"
+			x: -7.5d
+			y: 2.5d
+			id: "69FB2E5BAB921177"
+			tasks: [{
+				id: "27CC6EE99E69F063"
+				type: "checkmark"
+				title: "Yu-GI-Oh!"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			id: "484B857BC7B949C5"
+			tasks: [
+				{
+					id: "0468736D29798901"
+					type: "item"
+					item: "buddycards:buddycard_booster_box_nether"
+				}
+				{
+					id: "6D12C5E62BD48A8C"
+					type: "item"
+					item: "buddycards:buddycard_booster_box_base"
+				}
+				{
+					id: "56A2AB29AE16CF14"
+					type: "item"
+					item: "buddycards:buddycard_booster_box_end"
+				}
+				{
+					id: "161F8D313AFF6EEE"
+					type: "item"
+					item: "buddycards:buddycard_booster_box_mystery"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			id: "1657776878B8E371"
+			tasks: [
+				{
+					id: "4290E94EE65A5C60"
+					type: "item"
+					item: "buddycards:buddycard_pack_mystery"
+				}
+				{
+					id: "481CD7B29947D537"
+					type: "item"
+					item: "buddycards:buddycard_pack_nether"
+				}
+				{
+					id: "1E93F339D2318D8F"
+					type: "item"
+					item: "buddycards:buddycard_pack_end"
+				}
+				{
+					id: "028B6D133B71F5B0"
+					type: "item"
+					item: "buddycards:buddycard_pack_base"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			id: "33302042C4854D08"
+			tasks: [
+				{
+					id: "5FECB43ED232A869"
+					type: "item"
+					item: "buddycards:buddycard_binder_end"
+				}
+				{
+					id: "5A224AFA9C22634B"
+					type: "item"
+					item: "buddycards:buddycard_binder_nether"
+				}
+				{
+					id: "52285200D6070057"
+					type: "item"
+					item: "buddycards:buddycard_binder_base"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			id: "56B884D30EC8A584"
+			tasks: [{
+				id: "22FE679EFD3B1345"
+				type: "item"
+				item: "buddycards:buddysteel_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			id: "1A59A3CA4B0ED0D8"
+			tasks: [{
+				id: "238BEB7B87B30BF8"
+				type: "item"
+				item: "buddycards:buddysteel_power_meter"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			id: "2F64740BB3256445"
+			tasks: [
+				{
+					id: "15F09AFE7103F620"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E3C3FA26C2C52B5"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2021B449C8EAA404"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "172B056582D19F1C"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			id: "4D919805774D5720"
+			tasks: [
+				{
+					id: "5B1327F3817F0947"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D0BD05CC9AE2324"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77F1239C51C58722"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4938BAE2DCD5E60B"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23559998548C7E8D"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			id: "188333898F535EC4"
+			tasks: [
+				{
+					id: "3BFCB3BC929D480F"
+					type: "item"
+					item: "buddycards:blank_buddysteel_medal"
+				}
+				{
+					id: "728F5DBE1803DC40"
+					type: "item"
+					item: "buddycards:buddysteel_medal_base"
+				}
+				{
+					id: "4160314936864973"
+					type: "item"
+					item: "buddycards:buddysteel_medal_nether"
+				}
+				{
+					id: "2B720F74158D9B18"
+					type: "item"
+					item: "buddycards:buddysteel_medal_end"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: [
+				"188333898F535EC4"
+				"33302042C4854D08"
+				"484B857BC7B949C5"
+				"2F64740BB3256445"
+				"56B884D30EC8A584"
+				"1A59A3CA4B0ED0D8"
+				"4D919805774D5720"
+				"1657776878B8E371"
+			]
+			hide: true
+			id: "5B4359EAD9A9F98B"
+			tasks: [{
+				id: "401095FACE47C2AB"
+				type: "checkmark"
+				title: "Free buddy card pack"
+			}]
+			rewards: [{
+				id: "28F413705BD4DDEE"
+				type: "item"
+				item: "buddycards:buddycard_pack_base"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

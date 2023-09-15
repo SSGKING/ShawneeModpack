@@ -1,0 +1,132 @@
+{
+	id: "74298E2068A1D643"
+	group: "29BFDF01C4E5A8C9"
+	order_index: 0
+	filename: "closet"
+	title: "Closet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Sophisticated Backpacks"
+			x: -5.5d
+			y: -2.0d
+			description: ["You know the drill, make a pack surround said pack in better and better materials to boost the storage and mods you can sow into the pack."]
+			id: "2F234863982AAEE9"
+			tasks: [{
+				id: "70EAD1DFABA2C4AC"
+				type: "checkmark"
+				title: "Buddy Cards"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			description: ["You know it, you love it, you would kill for it, it's the grave stone mod, died in the neather with lava surrounding you? Well that sucks, but your stuff is still there!"]
+			id: "05CD3B5CC8A0F507"
+			tasks: [{
+				id: "4C5D2CA5B3F32E46"
+				type: "checkmark"
+				title: "Gravestone Mod"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			description: ["It's worse than digital storage, but looks much nicer, upgrades and downgrades can be found in NEI"]
+			id: "7F8978440FDFA4CC"
+			tasks: [{
+				id: "146E3B5DBDC8C4C5"
+				type: "checkmark"
+				title: "Storage Drawers"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: ["They can take you up, and down, but not side to side, that's on you. Elevators are back baby!"]
+			id: "0B0A38F2DC7B2EFC"
+			tasks: [{
+				id: "5814D9ED36CF6E30"
+				type: "checkmark"
+				title: "Openblocks Elevators"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Now you don't have to show you ass kicking suit that looks like dog vomit, and instead show what you like. Or continue looking like Dog vomit, it doesn't matter."]
+			id: "496AD1A3DE268243"
+			tasks: [{
+				id: "685200F94C3464DF"
+				type: "checkmark"
+				title: "Cosmetic Armor Reworked"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			description: ["Points to a chosen biome, we tweaked the recipe to make it more expensive, but for explorers it's pretty nice."]
+			id: "0AECE4FA4C4ADA09"
+			tasks: [{
+				id: "5FFEB89227E5591B"
+				type: "checkmark"
+				title: "Nature's Compass (Changed Recipe)"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			description: ["I can't wait for someone to die to this and get mad, yes the trees fall when you cut them down."]
+			id: "32D811EC07E2C63D"
+			tasks: [{
+				id: "28DA078AAE79EE7E"
+				type: "checkmark"
+				title: "Falling Tree"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			description: ["Clumps is a mod that clumps exp together so it doesn't lag the server to bad, not really needed but nice to have."]
+			id: "7A5F3EA55A93E667"
+			tasks: [{
+				id: "529C4D0999481BB4"
+				type: "checkmark"
+				title: "Clumps"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			description: [
+				"We'll that's all the utility stuff, just the mods that help the pack survive for a bit longer."
+				"Here's a free buddy card pack, and yes I know they are all technicly free because you need to find them, but hey, I don't care!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2F234863982AAEE9"
+				"05CD3B5CC8A0F507"
+				"7F8978440FDFA4CC"
+				"0B0A38F2DC7B2EFC"
+				"496AD1A3DE268243"
+				"0AECE4FA4C4ADA09"
+				"32D811EC07E2C63D"
+				"7A5F3EA55A93E667"
+			]
+			hide: true
+			id: "53D52DABA740C1FE"
+			tasks: [{
+				id: "05E2FD5F4AF3C3AB"
+				type: "checkmark"
+				title: "Here's a buddy card pack"
+			}]
+			rewards: [{
+				id: "1D4D3EBA8290AE0A"
+				type: "item"
+				item: "buddycards:buddycard_pack_base"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

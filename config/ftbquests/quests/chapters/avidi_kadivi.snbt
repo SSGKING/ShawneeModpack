@@ -6,6 +6,15 @@
 	title: "Avidi Kadivi"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: -1.5d
+		y: 0.5d
+		id: "559E5FE8074F5585"
+		tasks: [{
+			id: "77562622C1CABE46"
+			type: "checkmark"
+			title: "Adivi Kadivi"
+		}]
+	}]
 	quest_links: [ ]
 }

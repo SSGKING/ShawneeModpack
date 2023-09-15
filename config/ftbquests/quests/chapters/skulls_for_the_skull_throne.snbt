@@ -6,6 +6,16 @@
 	title: "SKULLS FOR THE SKULL THRONE"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		title: "SKULLS FOR THE SKULL THRONE"
+		x: 0.5d
+		y: 0.0d
+		id: "6DE161B950291424"
+		tasks: [{
+			id: "49D89BB2B1A69582"
+			type: "checkmark"
+			title: "SKULLS FOR THE SKULL GOD!"
+		}]
+	}]
 	quest_links: [ ]
 }

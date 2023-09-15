@@ -6,6 +6,22 @@
 	title: "Oh shit that's a lot of land"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: -2.0d
+		y: 0.5d
+		description: ["There's a lot of land out there, find a place you like and set up, but I beg of you, don't do it TOO CLOSE to other peoples bases. It usually cramps their style."]
+		id: "2EB6EC3AAE0E955A"
+		tasks: [{
+			id: "6B3346DBF84BA88F"
+			type: "checkmark"
+			title: "Oh shit that's a lot of land"
+		}]
+		rewards: [{
+			id: "4A073208394207A1"
+			type: "item"
+			title: "House warming gift"
+			item: "minecraft:painting"
+		}]
+	}]
 	quest_links: [ ]
 }

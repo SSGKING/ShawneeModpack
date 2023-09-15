@@ -6,6 +6,22 @@
 	title: "large, tectonic plates"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: -0.5d
+		y: 0.5d
+		description: ["again like the previous mod, this one adds even more land features and interesting areas, have another housewarming gift."]
+		id: "353CF02BEC9C02C3"
+		tasks: [{
+			id: "036F7214890A3E63"
+			type: "checkmark"
+			title: "large, tectonic plates"
+		}]
+		rewards: [{
+			id: "7A89FC92CC816635"
+			type: "item"
+			title: "A House\"Warming\" Gift"
+			item: "minecraft:campfire"
+		}]
+	}]
 	quest_links: [ ]
 }

@@ -6,6 +6,28 @@
 	title: "Dungeon Maul"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		title: "Dungeon Maul"
+		x: -2.5d
+		y: 0.0d
+		description: ["Look all i'm saying is it's a bit weird that there's a tower in the middle of the woods with ONLY, let me say that again, ONLY a spiral stair case in it. That's all i'm saying, also there may be crap loads of loot to find but hey, that's just a rumor."]
+		id: "29FAC650AD1D34BF"
+		tasks: [{
+			id: "72F60B3C6E3ACD7E"
+			type: "checkmark"
+			title: "Dungeon Brawl"
+		}]
+		rewards: [{
+			id: "06AF8FF8E2A4B9FF"
+			type: "item"
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+		}]
+	}]
 	quest_links: [ ]
 }

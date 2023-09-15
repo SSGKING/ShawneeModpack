@@ -33,6 +33,7 @@
 #F3C652 pneumaticcraft:charging_station
 #F522F4 minecraft:chest
 #C5DEED croptopia:cinnamon_leaves
+#F40DB9 croptopia:cinnamon_log
 #7FDE54 minecraft:clay
 #DE242D minecraft:coal_ore
 #FE4F0A minecraft:coarse_dirt

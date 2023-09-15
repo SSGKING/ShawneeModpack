@@ -3,9 +3,18 @@
 	group: "6A76548D5BF3B1D6"
 	order_index: 3
 	filename: "magic_flowers_and_regualr_joints"
-	title: "Magic Flowers and Regualr Joints"
+	title: "Magic Flowers and Regular Joints"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: -0.5d
+		y: 0.0d
+		id: "0F00850EA98C2B20"
+		tasks: [{
+			id: "7015012058838D2A"
+			type: "checkmark"
+			title: "Magic Flowers and Regular Joints"
+		}]
+	}]
 	quest_links: [ ]
 }

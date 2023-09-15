@@ -6,6 +6,21 @@
 	title: "Happy little trees"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: -3.0d
+		y: 0.0d
+		description: ["We added the Joy of Painting mod, this lets you create pixel art that you can then put up around the place, we can see who paints the painting."]
+		id: "6F7DA26EE253A961"
+		tasks: [{
+			id: "5C5DE839DD729112"
+			type: "checkmark"
+			title: "Happy Little Trees"
+		}]
+		rewards: [{
+			id: "245ADDE9F353BFC9"
+			type: "item"
+			item: "xercapaint:item_canvas"
+		}]
+	}]
 	quest_links: [ ]
 }
