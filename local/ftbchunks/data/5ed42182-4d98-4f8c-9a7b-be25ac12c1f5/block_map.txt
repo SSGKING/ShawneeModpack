@@ -30,6 +30,7 @@
 #C6AC20 minecraft:cactus
 #D01DA1 psi:cad_assembler
 #00BE18 minecraft:calcite
+#AA8FDD twilightforest:canopy_chest
 #F3C652 pneumaticcraft:charging_station
 #F522F4 minecraft:chest
 #C5DEED croptopia:cinnamon_leaves
@@ -65,6 +66,7 @@
 #C00BD2 byg:ebony_log
 #9CB9C6 twilightforest:experiment_115
 #009B14 minecraft:farmland
+#272998 twilightforest:fiery_essence_fluid
 #B9B269 minecraft:fire_coral_block
 #CF7ABA byg:firecracker_leaves
 #EFC35E byg:flowering_barrel_cactus
@@ -75,6 +77,7 @@
 #060B35 minecraft:granite
 #3F84B7 minecraft:grass_block
 #88BAFA minecraft:gravel
+#763000 gravestone:gravestone
 #43797E quark:green_corundum_cluster
 #9CC9B2 byg:green_mushroom_block
 #F67E21 minecraft:hay_block

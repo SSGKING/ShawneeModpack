@@ -1,0 +1,11 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "StarmasterK13"
+	last_seen: { dim: "minecraft:overworld", x: 385, y: 67, z: -174, time: 1694754662084L, xRot: 50.250076f, yRot: 168.00003f }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}
