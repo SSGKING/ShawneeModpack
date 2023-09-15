@@ -54,6 +54,12 @@
     },
     "done": true
   },
+  "botania:main/lexicon_use": {
+    "criteria": {
+      "use_lexicon": "2023-09-15 12:30:19 -0400"
+    },
+    "done": true
+  },
   "lootr:root": {
     "criteria": {
       "always_true": "2023-09-06 20:42:53 -0400"
@@ -280,6 +286,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2023-09-15 13:11:01 -0400"
+    },
+    "done": true
+  },
   "psi:main/ebony_assembly_pickup": {
     "criteria": {
       "flower": "2023-09-06 20:42:53 -0400"
@@ -434,6 +446,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/root": {
+    "criteria": {
+      "useitem": "2023-09-15 13:18:52 -0400"
+    },
+    "done": true
+  },
   "byg:biomepedia_gift": {
     "criteria": {
       "tick": "2023-09-06 20:42:53 -0400"
@@ -455,6 +473,12 @@
   "twilightforest:alt/treasures/fiery_tool_set": {
     "criteria": {
       "has_tears": "2023-09-06 22:18:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2023-09-15 13:16:25 -0400"
     },
     "done": true
   },

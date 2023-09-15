@@ -2,6 +2,29 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:devices/fel_pumpkin",
+        "botania:ender/ender_eye_block",
+        "botania:misc/dispenser_tweaks",
+        "botania:basics/black_lotus",
+        "botania:basics/flowers",
+        "botania:basics/lexicon",
+        "botania:baubles/item_finder",
+        "botania:misc/banners",
+        "botania:ender/ender_air",
+        "botania:misc/pavement",
+        "botania:misc/azulejo",
+        "botania:basics/welcome",
+        "botania:baubles/intro",
+        "botania:misc/preventing_decay",
+        "botania:tools/overgrowth_seed",
+        "botania:misc/blaze_block",
+        "botania:misc/cacophonium"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "bloodmagic:guide": {
       "viewedEntries": [
         "bloodmagic:rituals/ritual_list/ritual_simple_dungeon",

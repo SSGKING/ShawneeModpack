@@ -6,6 +6,55 @@
 	title: "Magic Wand of constant construction"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["Ok, we have the builders wand, but lets face it, if you arn't going to focus on building in this pack this doesn't excite you. But for those who do want to build, build one and get another four, just to help the process"]
+			id: "359F6ABC8352A797"
+			tasks: [{
+				id: "3B87E6F9982DC6FF"
+				type: "checkmark"
+				title: "Magic wand of constant construction"
+			}]
+			rewards: [{
+				id: "13682B9E80DE26F5"
+				type: "item"
+				item: "minecraft:stick"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["359F6ABC8352A797"]
+			id: "76F1B84F78D2C631"
+			tasks: [{
+				id: "3BEC1454F8536FA5"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0DFFA955F9976FD0"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+				count: 4
+			}]
+		}
+	]
 	quest_links: [ ]
 }

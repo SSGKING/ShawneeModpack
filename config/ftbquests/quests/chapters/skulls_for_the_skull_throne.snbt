@@ -6,16 +6,49 @@
 	title: "SKULLS FOR THE SKULL THRONE"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "SKULLS FOR THE SKULL THRONE"
-		x: 0.5d
-		y: 0.0d
-		id: "6DE161B950291424"
-		tasks: [{
-			id: "49D89BB2B1A69582"
-			type: "checkmark"
-			title: "SKULLS FOR THE SKULL GOD!"
-		}]
-	}]
+	quests: [
+		{
+			title: "SKULLS FOR THE SKULL THRONE"
+			x: 0.5d
+			y: 0.0d
+			description: ["This doesn't have much to do with skulls but wanted to keep up the joke, so the mod has a book that walks you through it's process and some of the items, it's pretty cool."]
+			id: "6DE161B950291424"
+			tasks: [{
+				id: "49D89BB2B1A69582"
+				type: "checkmark"
+				title: "SKULLS FOR THE SKULL GOD!"
+			}]
+			rewards: [{
+				id: "4A4CB73CD8AACFAE"
+				type: "item"
+				item: "occultism:datura_seeds"
+				count: 6
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["This is the book, I'm not going to spoil much of it, but it does require quite a bit of dream demon fruit, so here's five on the house"]
+			dependencies: ["6DE161B950291424"]
+			id: "599616BD064A7C6D"
+			tasks: [{
+				id: "3CCAB54E84C3591B"
+				type: "item"
+				item: {
+					id: "occultism:dictionary_of_spirits"
+					Count: 1b
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D1579917285EB44"
+				type: "item"
+				item: "occultism:datura"
+				count: 5
+			}]
+		}
+	]
 	quest_links: [ ]
 }

@@ -6,6 +6,49 @@
 	title: "Going Up!"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["Yea I can take you to the next level, with an elevator, get in or i'm closing the door."]
+			id: "201C16DC5C28FCFC"
+			tasks: [{
+				id: "0BD574CC572C34EB"
+				type: "checkmark"
+				title: "Going up!"
+			}]
+			rewards: [{
+				id: "645E05C7EFB8112D"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["201C16DC5C28FCFC"]
+			id: "2291938ECEF0C689"
+			tasks: [{
+				id: "40FD30CBEBDFD882"
+				type: "item"
+				title: "Any #elevatorid:elevators"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+				count: 2L
+			}]
+			rewards: [{
+				id: "16804C48473B297A"
+				type: "item"
+				item: "elevatorid:elevator_white"
+				count: 2
+			}]
+		}
+	]
 	quest_links: [ ]
 }

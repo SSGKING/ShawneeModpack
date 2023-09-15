@@ -163,6 +163,7 @@
 #F8955F minecraft:stone_bricks
 #AB5BC7 minecraft:stone_slab
 #5CF3F1 minecraft:sugar_cane
+#7F78A8 aquaculture:tackle_box
 #9209D8 minecraft:terracotta
 #1E0585 thermal:tin_ore
 #2035B7 minecraft:tube_coral_block
@@ -181,6 +182,7 @@
 #A539CC refinedstorage:wireless_transmitter
 #A5A77C byg:wood_blewit_mushroom_block
 #521E56 cgm:workbench
+#56F0B0 aquaculture:worm_farm
 #D9C16D quark:yellow_blossom_leaves
 #49542D quark:yellow_corundum_cluster
 #CC6A83 minecraft:yellow_terracotta

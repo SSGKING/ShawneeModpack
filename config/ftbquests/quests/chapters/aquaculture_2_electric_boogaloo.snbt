@@ -6,6 +6,158 @@
 	title: "Aquaculture 2, electric boogaloo"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -0.5d
+			y: 0.5d
+			description: ["Thar be plenty of fish in the sea, but this pond will do."]
+			id: "7772178ADB6668CB"
+			tasks: [{
+				id: "20FBC17ACAA27431"
+				type: "checkmark"
+				title: "Aquaculture 2, electric boogaloo"
+			}]
+			rewards: [
+				{
+					id: "31455F36AC6E3BD7"
+					type: "item"
+					item: "aquaculture:smallmouth_bass"
+				}
+				{
+					id: "61C1EC2B00609FA9"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			description: ["better fishing rods have better odds of getting fish and different fish."]
+			dependencies: ["79C647E7BB486806"]
+			id: "5A0B0212629AAA21"
+			tasks: [{
+				id: "4795DC8341FF4004"
+				type: "item"
+				item: {
+					id: "aquaculture:iron_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			description: ["This box is how you store and change things on your rod."]
+			dependencies: ["7772178ADB6668CB"]
+			id: "79C647E7BB486806"
+			tasks: [{
+				id: "30D2B09A54A29E12"
+				type: "item"
+				item: "aquaculture:tackle_box"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["There are three different baits, each with different fish that will take a bite out of them."]
+			dependencies: [
+				"79C647E7BB486806"
+				"7CB3587001CAAE5C"
+			]
+			id: "727F5176EF86A023"
+			tasks: [{
+				id: "29E408ABD04FDE1F"
+				type: "item"
+				item: {
+					id: "aquaculture:worm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["I'm not too sure on what the line and bobber does, but I'd get them just in case it means the rod doens't work."]
+			dependencies: ["79C647E7BB486806"]
+			id: "05A9D8099CAEAFA8"
+			tasks: [{
+				id: "0DAB93FFE24BC0E9"
+				type: "item"
+				item: "aquaculture:fishing_line"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			description: ["Hooks change the speed, amount, and ease of getting fish, more expensive isn't better in some cases, but just different"]
+			dependencies: ["79C647E7BB486806"]
+			id: "01F05FEE48F4DC1D"
+			tasks: [{
+				id: "20979D71B798BE38"
+				type: "item"
+				item: "aquaculture:iron_hook"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			description: ["I'm not too sure on what the line and bobber does, but I'd get them just in case it means the rod doens't work."]
+			dependencies: ["79C647E7BB486806"]
+			id: "3D3C28CFCBB85433"
+			tasks: [{
+				id: "08987A7D4BFB3342"
+				type: "item"
+				item: "aquaculture:bobber"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["If you want to eat your fish you'll need a fillet knife, the only difference between iron and diamond is durability"]
+			dependencies: ["79C647E7BB486806"]
+			id: "265461DA5F9FB70E"
+			tasks: [{
+				id: "67ED35CF60BA2694"
+				type: "item"
+				item: {
+					id: "aquaculture:iron_fillet_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: ["Do you want worms? Cause this is how you get worms!"]
+			dependencies: ["79C647E7BB486806"]
+			id: "7CB3587001CAAE5C"
+			tasks: [{
+				id: "0C54FAA2E6D35CEC"
+				type: "item"
+				item: "aquaculture:worm_farm"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			description: ["All the boxes drop materials and other goodies from their insides, you get a free one here but it's just a note for you."]
+			id: "7E51CB5FCFEFE809"
+			tasks: [{
+				id: "66B48EB9A08862D4"
+				type: "checkmark"
+				title: "LOOT!"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

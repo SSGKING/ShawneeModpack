@@ -6,6 +6,63 @@
 	title: "Chiseled once again"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "52C2370E3796F599"
+			tasks: [{
+				id: "1B9C90275CA88D33"
+				type: "checkmark"
+				title: "Chisled, once again"
+			}]
+			rewards: [{
+				id: "2B2EC7E51D6C93C9"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["52C2370E3796F599"]
+			id: "199107E27891A633"
+			tasks: [{
+				id: "22C034FA03E4BD9C"
+				type: "item"
+				item: {
+					id: "rechiseled:chisel"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "55918F1ED2C72265"
+					type: "item"
+					item: "minecraft:stone"
+					count: 64
+				}
+				{
+					id: "17E94727380491F3"
+					type: "item"
+					item: "minecraft:polished_granite"
+					count: 64
+				}
+				{
+					id: "7736898A4F6A1601"
+					type: "item"
+					item: "minecraft:polished_andesite"
+					count: 64
+				}
+				{
+					id: "6A57E3CAEDF20A78"
+					type: "item"
+					item: "minecraft:polished_diorite"
+					count: 64
+				}
+			]
+		}
+	]
 	quest_links: [ ]
 }

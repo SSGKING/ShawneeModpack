@@ -6,6 +6,51 @@
 	title: "Normal animals, made by Alex"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "45790741FE63F764"
+			tasks: [{
+				id: "44ACD6EC2E70934C"
+				type: "checkmark"
+				title: "Normal animals, made by Alex"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["you mean a shrimp fried this rice?"]
+			dependencies: ["45790741FE63F764"]
+			id: "3BAC8E9F476BE37A"
+			tasks: [{
+				id: "613E390B0BE31613"
+				type: "item"
+				item: "alexsmobs:animal_dictionary"
+			}]
+			rewards: [{
+				id: "10D636253FF013D7"
+				type: "item"
+				item: "alexsmobs:shrimp_fried_rice"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["There are new potions, enchanments, food, and apparel. usually made out of the animals of the world, I'm not going to walk you through them, but if you want to find something else to do with Alex's Animals then here you go."]
+			dependencies: ["3BAC8E9F476BE37A"]
+			id: "1D612FB84163C8EB"
+			tasks: [{
+				id: "4AAC477417255334"
+				type: "checkmark"
+				title: "Fur, food, fun!"
+			}]
+			rewards: [{
+				id: "35B959D7950B488A"
+				type: "item"
+				item: "alexsmobs:bison_fur_block"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

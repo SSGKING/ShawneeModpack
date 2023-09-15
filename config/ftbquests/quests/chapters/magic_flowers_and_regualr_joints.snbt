@@ -6,15 +6,40 @@
 	title: "Magic Flowers and Regular Joints"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -0.5d
-		y: 0.0d
-		id: "0F00850EA98C2B20"
-		tasks: [{
-			id: "7015012058838D2A"
-			type: "checkmark"
-			title: "Magic Flowers and Regular Joints"
-		}]
-	}]
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			description: ["You want to lear about botania? Well tough shit, I know nothing, here, this is how you make the book, learn it yourself."]
+			id: "0F00850EA98C2B20"
+			tasks: [{
+				id: "7015012058838D2A"
+				type: "checkmark"
+				title: "Magic Flowers and Regular Joints"
+			}]
+			rewards: [{
+				id: "17FC6A2CFD5C99E8"
+				type: "item"
+				item: "byg:mangrove_sapling"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["0F00850EA98C2B20"]
+			id: "7C6C974CC19DD08B"
+			tasks: [{
+				id: "7BBAB08A9B4DDE84"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+			rewards: [{
+				id: "510AE8D458B2EC02"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 10
+			}]
+		}
+	]
 	quest_links: [ ]
 }

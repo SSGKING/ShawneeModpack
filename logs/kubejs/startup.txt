@@ -1,5 +1,5 @@
-[10:10:16] [INFO ] Hello, World! (You will only see this line once in console, during startup)
-[10:10:16] [INFO ] Loaded script startup_scripts:script.js in 0.395 s
-[10:10:16] [INFO ] Loaded 1/1 KubeJS startup scripts in 2.625 s
-[10:10:16] [INFO ] startup_scripts:script.js:8: ~ minecraft:item | kubejs:mugrootbeer
-[10:10:21] [INFO ] + minecraft:item | kubejs:mugrootbeer
+[11:36:24] [INFO ] Hello, World! (You will only see this line once in console, during startup)
+[11:36:24] [INFO ] Loaded script startup_scripts:script.js in 0.362 s
+[11:36:24] [INFO ] Loaded 1/1 KubeJS startup scripts in 2.111 s
+[11:36:24] [INFO ] startup_scripts:script.js:8: ~ minecraft:item | kubejs:mugrootbeer
+[11:36:28] [INFO ] + minecraft:item | kubejs:mugrootbeer

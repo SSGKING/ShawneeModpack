@@ -46,11 +46,20 @@
 				type: "item"
 				item: "bloodmagic:altar"
 			}]
+			rewards: [{
+				id: "28CF252A50A59AB2"
+				type: "item"
+				item: "bloodmagic:blankslate"
+				count: 10
+			}]
 		}
 		{
 			x: 10.0d
 			y: -1.0d
-			dependencies: ["025963584F806027"]
+			dependencies: [
+				"025963584F806027"
+				"301BCC10201FE1B6"
+			]
 			id: "13E2E5EEFF6FEB7A"
 			tasks: [{
 				id: "35B642EB8BD03A39"
@@ -188,7 +197,7 @@
 		{
 			x: 12.5d
 			y: 0.5d
-			dependencies: ["4734BB6539ADDB62"]
+			dependencies: ["077D972B7C10EE6F"]
 			id: "1413250A374D93A8"
 			tasks: [{
 				id: "76E03B826EACFEC4"
@@ -334,6 +343,97 @@
 					item: "bloodmagic:strong_tau"
 				}
 			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["025963584F806027"]
+			id: "511C31FB3EAC625B"
+			tasks: [{
+				id: "030062C26716866F"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["025963584F806027"]
+			id: "4B584934BB2D9195"
+			tasks: [{
+				id: "170A5940C011D6CB"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["025963584F806027"]
+			id: "5B9B5DE589F47B4B"
+			tasks: [{
+				id: "48FE005659014EC8"
+				type: "item"
+				item: "bloodmagic:incensealtar"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			dependencies: ["511C31FB3EAC625B"]
+			id: "35FA68115B605F4B"
+			tasks: [{
+				id: "13DFFCC0AA58359B"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["511C31FB3EAC625B"]
+			id: "0870150B6049799F"
+			tasks: [{
+				id: "542C59736389B9E6"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["511C31FB3EAC625B"]
+			id: "7822860EB9D7825C"
+			tasks: [{
+				id: "1AA068CFF44B3B4A"
+				type: "item"
+				item: "bloodmagic:demonpylon"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["0D4B4D8CED64F992"]
+			id: "6C11238E70A84B06"
+			tasks: [{
+				id: "34485C1AE94FEC6C"
+				type: "item"
+				item: "bloodmagic:tauoil"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			description: [
+				"There are multiple layers of blood alters, I recomend buiding the alter either above the ground by a bit or underground. This helps with the ease and look of the building"
+				"Also the last level of the blood alter does nothing, don't worry about it."
+			]
+			id: "301BCC10201FE1B6"
+			tasks: [{
+				id: "390403B563881D09"
+				type: "checkmark"
+				title: "There are a lot of layers"
+			}]
 		}
 	]
 	quest_links: [ ]
