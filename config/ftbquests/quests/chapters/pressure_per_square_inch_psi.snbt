@@ -21,26 +21,39 @@
 		{
 			x: -1.5d
 			y: -0.5d
+			dependencies: ["013BDEDDFE5DB7B5"]
 			id: "42FB799AEBDA0F13"
 			tasks: [{
 				id: "58FD8BFBC0C50115"
 				type: "item"
 				item: "psi:cad_assembler"
 			}]
+			rewards: [{
+				id: "5119190DC75187C5"
+				type: "item"
+				item: "psi:ebony_substance"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 1.5d
+			dependencies: ["013BDEDDFE5DB7B5"]
 			id: "7041EAFA3C072EF9"
 			tasks: [{
 				id: "46277FD0F019D4EA"
 				type: "item"
 				item: "psi:programmer"
 			}]
+			rewards: [{
+				id: "00A2988F097A40B9"
+				type: "item"
+				item: "psi:ivory_substance"
+			}]
 		}
 		{
 			x: 0.0d
 			y: -1.0d
+			dependencies: ["42FB799AEBDA0F13"]
 			id: "7521362DE5CE2753"
 			tasks: [{
 				id: "662482ABC82AF528"
@@ -51,6 +64,7 @@
 		{
 			x: 1.5d
 			y: -2.5d
+			dependencies: ["1D31393511B99A44"]
 			id: "422DE34C3B7CF9E7"
 			tasks: [{
 				id: "2A733FB2194FBC39"
@@ -61,6 +75,7 @@
 		{
 			x: 2.5d
 			y: -2.5d
+			dependencies: ["1D31393511B99A44"]
 			id: "204F8BB20805530F"
 			tasks: [{
 				id: "18B8C9DBDDCA8874"
@@ -71,6 +86,7 @@
 		{
 			x: 1.5d
 			y: -3.5d
+			dependencies: ["1D31393511B99A44"]
 			id: "3BFA787148FE9E0E"
 			tasks: [{
 				id: "269390E2263D1364"
@@ -81,21 +97,36 @@
 		{
 			x: 0.5d
 			y: -2.5d
+			dependencies: ["1D31393511B99A44"]
 			id: "31E3D9FDC18072C2"
 			tasks: [{
 				id: "0FA7D64D68C553EA"
 				type: "item"
-				item: "psi:cad_colorizer_white"
+				title: "Any #psi:colorizers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "psi:colorizers"
+					}
+				}
 			}]
 		}
 		{
 			x: 1.5d
 			y: -1.0d
+			dependencies: ["7521362DE5CE2753"]
 			id: "1D31393511B99A44"
 			tasks: [{
 				id: "3B1F66C933D233A5"
 				type: "item"
 				item: "psi:psidust"
+			}]
+			rewards: [{
+				id: "6ABA3B88ECD975B7"
+				type: "item"
+				item: "psi:psidust"
+				count: 4
 			}]
 		}
 		{
@@ -153,20 +184,34 @@
 					item: "psi:exosuit_controller"
 				}
 			]
+			rewards: [{
+				id: "30D8E5B116E57FB1"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 6
+			}]
 		}
 		{
 			x: 5.0d
 			y: -1.0d
+			dependencies: ["605AE509438E089C"]
 			id: "1F628DC386B9A241"
 			tasks: [{
 				id: "79A5DAB8E8D3EF6A"
 				type: "item"
 				item: "psi:exosuit_sensor_light"
 			}]
+			rewards: [{
+				id: "2AA6CCA6795897CD"
+				type: "item"
+				item: "croptopia:toast_sandwich"
+				count: 16
+			}]
 		}
 		{
 			x: 0.0d
 			y: 3.0d
+			dependencies: ["7041EAFA3C072EF9"]
 			id: "42495DBDEE13158B"
 			tasks: [{
 				id: "6995E600CD00CD79"
@@ -181,6 +226,7 @@
 		{
 			x: 0.5d
 			y: 1.5d
+			description: ["This tag, selects who or what the spell affects."]
 			id: "3D79392457A15203"
 			tasks: [{
 				id: "4D20D8E924BCFB1D"
@@ -191,6 +237,7 @@
 		{
 			x: 1.5d
 			y: 2.5d
+			description: ["This tag, is like a number, a constant that will constantly be looked on, like if you do a boost spell, this will designate how far you will go with the boost"]
 			id: "7CF85224E5B709F0"
 			tasks: [{
 				id: "3C37EC72854FC585"
@@ -201,6 +248,7 @@
 		{
 			x: 1.5d
 			y: 3.5d
+			description: ["This tag, tells you what the spell will do, like boost the target by the constant amount"]
 			id: "648F9C34017F5ACA"
 			tasks: [{
 				id: "2D79A2D09A4640A2"
@@ -211,6 +259,7 @@
 		{
 			x: 0.5d
 			y: 4.5d
+			description: ["This tag, allows you to link other tags together incase you build it to close to a wall or in the wrong area."]
 			id: "06AC9CEEF34ADC75"
 			tasks: [{
 				id: "5A1E34A6A15331C2"
@@ -221,6 +270,7 @@
 		{
 			x: -0.5d
 			y: 4.5d
+			description: ["This tag, is the other side of the constant, which takes input from the world or the player to then give stats to the spell, such as where the player is looking."]
 			id: "47F3AC1FC360214D"
 			tasks: [{
 				id: "0416500174756C53"
@@ -231,6 +281,7 @@
 		{
 			x: -1.5d
 			y: 3.5d
+			description: ["This isn't a tag but a stat when making spells, the more complex the spell is the higher mana cost it will take to cast, which can make spells unusable, even with the best CADs."]
 			id: "7DB655796EB34E74"
 			tasks: [{
 				id: "7C4585D3CEA3809A"

@@ -25,8 +25,10 @@
 			}]
 		}
 		{
+			title: "Librarians hoard"
 			x: 2.0d
 			y: 0.0d
+			dependencies: ["5D0F1AE855E47CCF"]
 			id: "64BDD8D564700C8A"
 			tasks: [{
 				id: "693E827795F3BE06"
@@ -41,8 +43,10 @@
 			}]
 		}
 		{
+			title: "Lighter, Cooler Lighter"
 			x: 4.0d
 			y: 0.0d
+			dependencies: ["64BDD8D564700C8A"]
 			id: "3BFE1FCB34266AC2"
 			tasks: [{
 				id: "4607CBCE455DEF46"
@@ -63,8 +67,10 @@
 			}]
 		}
 		{
+			title: "MY EYES!"
 			x: 5.5d
 			y: -1.5d
+			dependencies: ["3BFE1FCB34266AC2"]
 			id: "0197FAD6ACB57A01"
 			tasks: [{
 				id: "4715EEBD0C752418"
@@ -73,8 +79,10 @@
 			}]
 		}
 		{
+			title: "MY LEG!"
 			x: 5.5d
 			y: 1.5d
+			dependencies: ["3BFE1FCB34266AC2"]
 			id: "12A4A3A4FA3B5E50"
 			tasks: [{
 				id: "71CC04F8402775A5"
@@ -85,11 +93,22 @@
 		{
 			x: 7.0d
 			y: 0.0d
+			description: ["Look you have to find each individual tower first, then go back to the book man and buy the keys so you can enter the tower, The reason I don't have the four towers in here is simple, that takes time, a lot of time."]
+			dependencies: [
+				"0197FAD6ACB57A01"
+				"12A4A3A4FA3B5E50"
+			]
 			id: "49EA7013DAAC7C47"
 			tasks: [{
 				id: "139DB4593392FA11"
 				type: "checkmark"
 				title: "Towerkeys"
+			}]
+			rewards: [{
+				id: "22966BFB23F49D28"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3
 			}]
 		}
 	]

@@ -18,9 +18,21 @@
     },
     "done": false
   },
+  "tconstruct:foundry/fantastic_foundry": {
+    "criteria": {
+      "crafted_book": "2023-09-15 10:42:05 -0400"
+    },
+    "done": true
+  },
   "modonomicon:modonomicon/root": {
     "criteria": {
       "modonomicon_present": "2023-09-06 20:42:53 -0400"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/mighty_smelting": {
+    "criteria": {
+      "crafted_book": "2023-09-15 10:42:01 -0400"
     },
     "done": true
   },
@@ -156,6 +168,12 @@
   "undergarden:undergarden/root": {
     "criteria": {
       "tick": "2023-09-06 20:42:53 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/glass_sword": {
+    "criteria": {
+      "has_item": "2023-09-15 10:12:12 -0400"
     },
     "done": true
   },
@@ -419,6 +437,12 @@
   "byg:biomepedia_gift": {
     "criteria": {
       "tick": "2023-09-06 20:42:53 -0400"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/puny_smelting": {
+    "criteria": {
+      "crafted_book": "2023-09-15 10:32:34 -0400"
     },
     "done": true
   },

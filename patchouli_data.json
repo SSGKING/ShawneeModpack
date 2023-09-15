@@ -17,7 +17,9 @@
         "bloodmagic:rituals/ritual_list/ritual_yawning_void",
         "bloodmagic:altar/blood_altar",
         "bloodmagic:altar/redstone_automation",
-        "bloodmagic:altar/slates"
+        "bloodmagic:altar/slates",
+        "bloodmagic:dungeons/tau_fruit",
+        "bloodmagic:dungeons/keys"
       ],
       "bookmarks": [],
       "completedManualQuests": []

@@ -78,6 +78,7 @@
 		{
 			x: 9.5d
 			y: 0.0d
+			dependencies: ["13E2E5EEFF6FEB7A"]
 			id: "37B80AE6D509E30D"
 			tasks: [{
 				id: "1F4F0CF466F59F56"
@@ -88,6 +89,7 @@
 		{
 			x: 11.5d
 			y: 0.0d
+			dependencies: ["13E2E5EEFF6FEB7A"]
 			id: "077D972B7C10EE6F"
 			tasks: [{
 				id: "3F873072E39C3366"
@@ -98,6 +100,7 @@
 		{
 			x: 11.0d
 			y: -1.0d
+			dependencies: ["13E2E5EEFF6FEB7A"]
 			id: "4734BB6539ADDB62"
 			tasks: [{
 				id: "6852A7CECE31E9DC"
@@ -108,6 +111,7 @@
 		{
 			x: 10.0d
 			y: -3.0d
+			dependencies: ["13E2E5EEFF6FEB7A"]
 			id: "7EE8ED08E11B2428"
 			tasks: [{
 				id: "1BFB40AA0EE8088F"
@@ -118,6 +122,7 @@
 		{
 			x: 11.5d
 			y: -2.0d
+			dependencies: ["13E2E5EEFF6FEB7A"]
 			id: "3C9CD20ECB99E561"
 			tasks: [{
 				id: "49EC51191877B406"
@@ -128,6 +133,7 @@
 		{
 			x: 10.0d
 			y: 1.0d
+			dependencies: ["13E2E5EEFF6FEB7A"]
 			id: "139C6007DDEB45BF"
 			tasks: [{
 				id: "0B699D49E33E07ED"
@@ -138,6 +144,7 @@
 		{
 			x: 10.5d
 			y: 0.0d
+			dependencies: ["13E2E5EEFF6FEB7A"]
 			id: "27214BEEB6379347"
 			tasks: [{
 				id: "7A89349D836B481F"
@@ -148,6 +155,7 @@
 		{
 			x: 9.5d
 			y: -2.0d
+			dependencies: ["13E2E5EEFF6FEB7A"]
 			id: "5E8A580C5B4AFF2F"
 			tasks: [{
 				id: "28696A43E11CED40"
@@ -158,6 +166,7 @@
 		{
 			x: 10.5d
 			y: -2.0d
+			dependencies: ["13E2E5EEFF6FEB7A"]
 			id: "2B7ECA497FDA7892"
 			tasks: [{
 				id: "64720AA0B004364F"
@@ -168,6 +177,7 @@
 		{
 			x: 9.0d
 			y: 1.0d
+			dependencies: ["37B80AE6D509E30D"]
 			id: "26146DEEEA23A93B"
 			tasks: [{
 				id: "223142DF4BE4F1B0"
@@ -178,6 +188,7 @@
 		{
 			x: 12.5d
 			y: 0.5d
+			dependencies: ["4734BB6539ADDB62"]
 			id: "1413250A374D93A8"
 			tasks: [{
 				id: "76E03B826EACFEC4"
@@ -188,6 +199,7 @@
 		{
 			x: 12.0d
 			y: -1.0d
+			dependencies: ["4734BB6539ADDB62"]
 			id: "6C252B0C037D7533"
 			tasks: [{
 				id: "203FFF41090A0C39"
@@ -198,6 +210,7 @@
 		{
 			x: 10.0d
 			y: -4.0d
+			dependencies: ["7EE8ED08E11B2428"]
 			id: "3993581DA7CEC65E"
 			tasks: [{
 				id: "74B41377A30042F5"
@@ -208,6 +221,7 @@
 		{
 			x: 12.5d
 			y: -2.5d
+			dependencies: ["3C9CD20ECB99E561"]
 			id: "64641E5505240BBF"
 			tasks: [{
 				id: "628DB90A2C3854C9"
@@ -218,6 +232,7 @@
 		{
 			x: 10.0d
 			y: 2.0d
+			dependencies: ["139C6007DDEB45BF"]
 			id: "1EB77EC9FEECF4B5"
 			tasks: [{
 				id: "40AE98580AE2E1D3"
@@ -228,6 +243,7 @@
 		{
 			x: 11.0d
 			y: 1.0d
+			dependencies: ["27214BEEB6379347"]
 			id: "08D2D1D76EF9AD3F"
 			tasks: [{
 				id: "7BCDEE64DE328503"
@@ -238,6 +254,7 @@
 		{
 			x: 9.0d
 			y: -3.0d
+			dependencies: ["5E8A580C5B4AFF2F"]
 			id: "4D64E3310B5D9E58"
 			tasks: [{
 				id: "78DCF2B85895A9DE"
@@ -248,6 +265,7 @@
 		{
 			x: 11.0d
 			y: -3.0d
+			dependencies: ["2B7ECA497FDA7892"]
 			id: "372EA3D89F8AA7D8"
 			tasks: [{
 				id: "2DD68B3E995E9B9D"
@@ -258,6 +276,7 @@
 		{
 			x: 3.0d
 			y: -2.5d
+			dependencies: ["025963584F806027"]
 			id: "49C582314FA3D7E0"
 			tasks: [{
 				id: "38F38B09475AB689"
@@ -268,12 +287,53 @@
 		{
 			x: 3.0d
 			y: -3.5d
+			dependencies: ["025963584F806027"]
 			id: "07C8F1D448429DF6"
 			tasks: [{
 				id: "4D171FF64425047F"
 				type: "item"
 				item: "bloodmagic:bloodlightsigil"
 			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["025963584F806027"]
+			id: "2F03EC80C08B12D2"
+			tasks: [{
+				id: "3CBF40FD49B52515"
+				type: "item"
+				item: "bloodmagic:simplekey"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["025963584F806027"]
+			id: "3BDF95B3351ED14A"
+			tasks: [{
+				id: "0633B28A6EE500BC"
+				type: "item"
+				item: "bloodmagic:minekey"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["2F03EC80C08B12D2"]
+			id: "0D4B4D8CED64F992"
+			tasks: [
+				{
+					id: "5FDAAA703874C86F"
+					type: "item"
+					item: "bloodmagic:weak_tau"
+				}
+				{
+					id: "419AD3D842058F45"
+					type: "item"
+					item: "bloodmagic:strong_tau"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

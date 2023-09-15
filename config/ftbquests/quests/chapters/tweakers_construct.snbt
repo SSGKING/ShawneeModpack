@@ -10,6 +10,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
+			dependencies: ["68B374C6498B5B9D"]
 			id: "70AC5CFA3D175277"
 			tasks: [
 				{
@@ -39,90 +40,146 @@
 					count: 3L
 				}
 			]
+			rewards: [{
+				id: "374040520C986110"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 64
+			}]
 		}
 		{
 			x: -3.0d
 			y: 0.0d
+			dependencies: ["5BB264C1D3F2325D"]
 			id: "135B25F19D79243F"
 			tasks: [{
 				id: "6B1C0B3AB93292AE"
 				type: "item"
 				item: "tconstruct:grout"
+				count: 4L
 			}]
 		}
 		{
 			x: 0.0d
 			y: 0.0d
+			dependencies: ["6FC77F324E787BA0"]
 			id: "68B374C6498B5B9D"
 			tasks: [{
 				id: "757B0472FA142DE4"
 				type: "item"
 				item: "tconstruct:seared_bricks"
 			}]
+			rewards: [{
+				id: "2E5E70154D90202C"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 64
+			}]
 		}
 		{
 			x: 1.5d
 			y: -1.5d
+			dependencies: ["70AC5CFA3D175277"]
 			id: "2299240C7321125D"
 			tasks: [{
 				id: "2C2D320CDA56A9F5"
 				type: "item"
 				item: "thermal:bronze_ingot"
 			}]
+			rewards: [{
+				id: "54EBA38E71FECE66"
+				type: "item"
+				item: "tconstruct:molten_bronze_bucket"
+			}]
 		}
 		{
 			x: -3.0d
 			y: 1.5d
+			dependencies: ["135B25F19D79243F"]
 			id: "132779BF1F086073"
 			tasks: [{
 				id: "05B6D06B43678F40"
 				type: "item"
 				item: "tconstruct:puny_smelting"
 			}]
+			rewards: [{
+				id: "0ED4F0838E137008"
+				type: "item"
+				item: "quark:gunpowder_sack"
+				count: 5
+			}]
 		}
 		{
 			x: -3.0d
 			y: 3.0d
+			dependencies: ["132779BF1F086073"]
 			id: "07C806976654DA83"
 			tasks: [{
 				id: "075990CF89A3F842"
 				type: "item"
 				item: "tconstruct:mighty_smelting"
 			}]
+			rewards: [{
+				id: "162B8459D89E756A"
+				type: "item"
+				item: "minecraft:slime_block"
+			}]
 		}
 		{
 			x: -3.0d
 			y: -3.0d
+			dependencies: ["18430AFA8440817E"]
 			id: "0B35DE658468D944"
 			tasks: [{
 				id: "2665B60C5BA33CA9"
 				type: "item"
 				item: "tconstruct:tinkers_gadgetry"
 			}]
+			rewards: [{
+				id: "6ABF042C731FEB45"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: -3.0d
 			y: -1.5d
+			dependencies: ["135B25F19D79243F"]
 			id: "18430AFA8440817E"
 			tasks: [{
 				id: "64EDC29B6623111A"
 				type: "item"
 				item: "tconstruct:encyclopedia"
 			}]
+			rewards: [{
+				id: "68D7BB2A5ECDADDE"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 4
+			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["07C806976654DA83"]
 			id: "49CDE20F4BF92FF0"
 			tasks: [{
 				id: "687E09AD902905FF"
 				type: "item"
 				item: "tconstruct:fantastic_foundry"
 			}]
+			rewards: [{
+				id: "3A0BF8560D5C0F14"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
 		}
 		{
+			title: "This is where I learned how to build my tools"
 			x: -4.5d
 			y: 0.0d
+			dependencies: ["4654D8351C1C7F02"]
 			id: "5BB264C1D3F2325D"
 			tasks: [{
 				id: "4C75B92EA8BDFB07"
@@ -131,8 +188,10 @@
 			}]
 		}
 		{
+			title: "This is where I build my tools"
 			x: -6.0d
 			y: 0.0d
+			dependencies: ["6A0CDE6B41F72886"]
 			id: "4654D8351C1C7F02"
 			tasks: [
 				{
@@ -174,11 +233,30 @@
 		{
 			x: -1.5d
 			y: 0.0d
+			dependencies: ["135B25F19D79243F"]
 			id: "6FC77F324E787BA0"
 			tasks: [{
 				id: "676A9528DBBA282E"
 				type: "item"
 				item: "tconstruct:seared_brick"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0DF0606445052BEE"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 64
+			}]
+		}
+		{
+			title: "Tweaker's Construct"
+			x: -7.5d
+			y: 0.0d
+			id: "6A0CDE6B41F72886"
+			tasks: [{
+				id: "2069A99942F1D161"
+				type: "checkmark"
+				title: "Tweakers Construct"
 			}]
 		}
 	]

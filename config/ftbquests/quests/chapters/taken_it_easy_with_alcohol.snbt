@@ -50,13 +50,27 @@
 			title: "Find a village"
 			x: 3.0d
 			y: 0.0d
+			description: ["I wasn't able to find a village in this dimension in time, they exist but it could take a bit."]
 			dependencies: ["06437A4D6D95253F"]
 			id: "7AE80B9E1C1AFB85"
 			tasks: [{
-				id: "59B58FAEEC701ED5"
-				type: "structure"
-				structure: "minecraft:mineshaft"
+				id: "32EA7C165407055E"
+				type: "checkmark"
+				title: "Found a village"
 			}]
+			rewards: [
+				{
+					id: "170D76E27EE572AA"
+					type: "item"
+					item: "tropicraft:cooked_frog_leg"
+					count: 6
+				}
+				{
+					id: "0B16533AD97FB637"
+					type: "item"
+					item: "tropicraft:cooked_ray"
+				}
+			]
 		}
 		{
 			title: "A drink, at sunset"

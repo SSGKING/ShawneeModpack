@@ -269,6 +269,7 @@
 		{
 			x: 2.5d
 			y: 0.5d
+			description: ["This part of the quest is more to tell you about the fiery armor and weapons than actually guide you, congrats you've explored the spooki forest"]
 			id: "2D4617046F676980"
 			tasks: [{
 				id: "10EE55B45AA1A61A"
@@ -279,6 +280,7 @@
 		{
 			x: 3.5d
 			y: 0.5d
+			dependencies: ["2D4617046F676980"]
 			id: "27B0368D9500C052"
 			tasks: [{
 				id: "4F3408F88F21491D"
@@ -295,6 +297,7 @@
 		{
 			x: 4.5d
 			y: 0.5d
+			dependencies: ["2D4617046F676980"]
 			id: "7B3DA0E801A66B30"
 			tasks: [{
 				id: "0BA3F57739E0ADED"
@@ -311,6 +314,7 @@
 		{
 			x: 5.5d
 			y: 0.5d
+			dependencies: ["2D4617046F676980"]
 			id: "2B5A3114B5312D91"
 			tasks: [{
 				id: "18FE455E02D73A91"
@@ -327,6 +331,7 @@
 		{
 			x: 6.5d
 			y: 0.5d
+			dependencies: ["2D4617046F676980"]
 			id: "7CB72F7272FD5C08"
 			tasks: [{
 				id: "2E41BDA84F442367"
@@ -343,6 +348,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
+			dependencies: ["2D4617046F676980"]
 			id: "519B6FEDC614AD36"
 			tasks: [{
 				id: "686BD1299210F92C"
@@ -359,6 +365,7 @@
 		{
 			x: 6.0d
 			y: 1.5d
+			dependencies: ["2D4617046F676980"]
 			id: "12025E60525CAB63"
 			tasks: [{
 				id: "4D4B07B69AD0C6D6"
@@ -375,6 +382,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
+			dependencies: ["2D4617046F676980"]
 			id: "1FEDD437572FA766"
 			tasks: [{
 				id: "36CA5EB5F9A0304E"
