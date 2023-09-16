@@ -1,6 +1,0 @@
-things to go back over:
-
--quark biome maps
--check if quark reacharound breaks forge chunk protection
--storage drawers compacting
--twilight forest ore stalactites for modded ores

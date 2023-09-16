@@ -1,2 +1,0 @@
-minecraft:overworld
-blue_skies:everbright

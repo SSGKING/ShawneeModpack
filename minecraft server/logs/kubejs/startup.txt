@@ -1,0 +1,2 @@
+[18:15:57] [INFO ] Loaded script startup_scripts:script.js in 0.423 s
+[18:15:57] [INFO ] Loaded 1/1 KubeJS startup scripts in 2.266 s
