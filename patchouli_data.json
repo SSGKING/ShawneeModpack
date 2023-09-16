@@ -42,7 +42,25 @@
         "bloodmagic:altar/redstone_automation",
         "bloodmagic:altar/slates",
         "bloodmagic:dungeons/tau_fruit",
-        "bloodmagic:dungeons/keys"
+        "bloodmagic:dungeons/keys",
+        "bloodmagic:alchemy_table/alchemy_table"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "thermal:guidebook": {
+      "viewedEntries": [
+        "thermal:storage_and_transport/dynamics"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "pneumaticcraft:book": {
+      "viewedEntries": [
+        "pneumaticcraft:base_concepts/getting_started",
+        "pneumaticcraft:base_concepts/building_materials",
+        "pneumaticcraft:base_concepts/chunkloading",
+        "pneumaticcraft:components/compressed_iron_ingot"
       ],
       "bookmarks": [],
       "completedManualQuests": []
